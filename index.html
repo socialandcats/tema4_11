@@ -1,0 +1,840 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тема 4. Семья и брак · Обществознание и котики</title>
+<meta name="description" content="Тема 4: семья и брак, социальная политика, особенности профессиональной деятельности. Видеолекции, скрипты, конспекты, тесты и вторая часть.">
+<link rel="icon" href="logo.png">
+<style>
+/* все файлы (шрифты, картинки, PDF) лежат рядом с index.html, без папок */
+@font-face{font-family:'Comfortaa';font-weight:400;font-display:swap;src:url(comfortaa-cyrillic-400-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Comfortaa';font-weight:400;font-display:swap;src:url(comfortaa-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Comfortaa';font-weight:700;font-display:swap;src:url(comfortaa-cyrillic-700-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Comfortaa';font-weight:700;font-display:swap;src:url(comfortaa-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Balsamiq Sans';font-weight:700;font-display:swap;src:url(balsamiq-sans-cyrillic-700-normal.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:'Balsamiq Sans';font-weight:700;font-display:swap;src:url(balsamiq-sans-latin-700-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Фирменный шрифт Lazydog: положите файл Lazydog.woff2 или Lazydog.ttf рядом с index.html —
+   и заголовки сами переключатся на него. Пока файла нет, используется похожий Balsamiq Sans. */
+@font-face{font-family:'Lazydog';src:local('Lazydog'),local('Lazydog Regular'),local('LazydogRegular'),url('Lazydog.woff2') format('woff2'),url('Lazydog.ttf') format('truetype');font-display:swap}
+:root{
+  color-scheme:light;
+  --navy:#1f325e; --blue:#3e6287; --peri:#93b6ee; --peri-d:#7d9fe4; --peri-l:#dfe9fb;
+  --green:#6e8c6a; --mint:#c9f9fc; --cream:#fcf9ea; --pink:#f1dada; --pink-d:#e9a9b8; --rose:#d77b93;
+  --ink:#1f325e; --soft:#5d6b8a; --line:#d5e1f6; --card:#fff;
+  --ok:#3f8a4f; --ok-bg:#e7f4ea; --bad:#c8475a; --bad-bg:#fbe9ec;
+  --h:'Lazydog','Balsamiq Sans','Comfortaa',system-ui,sans-serif;
+  --b:'Comfortaa',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--b);color:var(--ink);font-size:16px;line-height:1.6;
+  background-color:var(--cream);
+  background-image:linear-gradient(rgba(147,182,238,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(147,182,238,.16) 1px,transparent 1px);
+  background-size:26px 26px}
+h1,h2,h3,.brand b{font-family:var(--h);font-weight:700;letter-spacing:.01em}
+a{color:var(--blue)}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--peri-d);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* шапка */
+header.top{background:rgba(255,255,255,.94);backdrop-filter:blur(6px);border-bottom:2px dashed var(--line);position:sticky;top:0;z-index:20}
+header.top .wrap{display:flex;align-items:center;gap:14px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--navy)}
+.brand img{height:44px;width:44px;object-fit:contain}
+.brand b{font-size:18px;line-height:1;text-transform:lowercase}
+.brand b span{display:block}
+nav.links{margin-left:auto;display:flex;gap:2px;align-items:center}
+nav.links a{text-decoration:none;color:var(--navy);font-weight:700;font-size:14px;padding:8px 11px;border-radius:10px}
+nav.links a:hover{background:var(--peri-l)}
+.sub-btn{background:var(--navy);color:#fff!important;border-radius:999px;padding:9px 16px!important}
+.sub-btn:hover{background:var(--blue)!important}
+
+/* hero */
+.hero{padding:42px 0 18px}
+.hero .wrap{display:grid;grid-template-columns:1fr 220px;gap:28px;align-items:center}
+.pill{display:inline-block;background:var(--peri);color:#fff;font-family:var(--h);font-size:18px;padding:4px 16px;border-radius:999px;box-shadow:3px 3px 0 var(--navy)}
+.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.08;margin:16px 0 12px;color:var(--navy)}
+.hero h1 em{font-style:normal;color:var(--blue);background:linear-gradient(transparent 62%,var(--pink) 62%)}
+.hero p.lead{margin:0;color:var(--soft);max-width:600px;font-size:16.5px}
+.hero .logo-big{width:220px;filter:drop-shadow(0 8px 18px rgba(31,50,94,.12))}
+.steps{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.steps a{background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:6px 13px 6px 6px;font-weight:700;font-size:13.5px;text-decoration:none;color:var(--navy);display:inline-flex;align-items:center;gap:7px;transition:border-color .15s,transform .15s}
+.steps a:hover{border-color:var(--peri);transform:translateY(-1px)}
+.steps a b{background:var(--pink);color:var(--navy);width:24px;height:24px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:12px}
+
+/* секции */
+section.block{padding:28px 0;scroll-margin-top:70px}
+.sec-h{display:flex;align-items:center;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.sec-h .n{font-family:var(--h);color:#fff;background:var(--peri-d);min-width:48px;height:48px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:3px 3px 0 var(--navy);transform:rotate(-4deg)}
+.sec-h h2{margin:0;font-size:clamp(23px,3.4vw,30px);color:var(--navy);line-height:1.1}
+.sec-h p{margin:0;color:var(--soft);font-size:14.5px;flex-basis:100%;padding-left:62px}
+.note{background:#fff;border:2px dashed var(--pink-d);border-radius:16px;padding:12px 16px;margin:0 0 16px;font-size:14.5px;color:var(--soft)}
+.note b{color:var(--navy)}
+
+/* видео */
+.videos{display:grid;gap:20px}
+.videos.two{grid-template-columns:1fr 1fr}
+.video{background:#fff;border:1.5px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 2px 0 var(--line)}
+.video .vh{display:flex;align-items:center;gap:12px;padding:13px 18px;flex-wrap:wrap}
+.video .vh .tag{background:var(--pink);color:var(--navy);font-family:var(--h);border-radius:10px;padding:3px 11px;font-size:15px}
+.video .vh h3{margin:0;font-size:18px;flex:1;min-width:160px}
+.video .vh a{font-size:13.5px;font-weight:700;text-decoration:none;white-space:nowrap}
+.video .vh a:hover{text-decoration:underline}
+.ratio{position:relative;aspect-ratio:16/9;background:var(--navy)}
+.ratio iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video .vf{display:flex;gap:10px;flex-wrap:wrap;padding:12px 18px;border-top:2px dashed var(--line);background:#fbfdff}
+.chip-dl{display:inline-flex;align-items:center;gap:8px;background:var(--peri-l);color:var(--navy);text-decoration:none;font-weight:700;font-size:14px;border-radius:12px;padding:8px 14px;transition:background .15s}
+.chip-dl:hover{background:var(--peri);color:#fff}
+.chip-dl svg{width:16px;height:16px;flex:none}
+
+/* карточки файлов */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px}
+.dl{background:#fff;border:1.5px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s,border-color .15s}
+.dl:hover{transform:translateY(-4px) rotate(-.4deg);box-shadow:0 12px 26px rgba(31,50,94,.13);border-color:var(--peri)}
+.dl .th{aspect-ratio:4/3;background:var(--peri-l);overflow:hidden;border-bottom:1.5px solid var(--line)}
+.dl .th img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.dl .bd{padding:13px 16px 16px;display:flex;flex-direction:column;gap:3px;flex:1}
+.dl h3{margin:0;font-size:17px;line-height:1.2}
+.dl .meta{color:var(--soft);font-size:13px}
+.dl .go{margin-top:auto;padding-top:10px}
+.dl .go span{display:inline-flex;align-items:center;gap:6px;background:var(--navy);color:#fff;font-weight:700;font-size:13.5px;padding:7px 13px;border-radius:11px}
+.dl.pink .go span{background:var(--rose)}
+.feature{display:grid;grid-template-columns:260px 1fr;background:#fff;border:2px solid var(--peri);border-radius:26px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:5px 5px 0 var(--peri);transition:transform .15s,box-shadow .15s}
+.feature:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--peri)}
+.feature .th{background:var(--pink);overflow:hidden}
+.feature .th img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;min-height:220px}
+.feature .bd{padding:24px 26px;display:flex;flex-direction:column;gap:8px;justify-content:center}
+.feature h3{margin:0;font-size:28px}
+.feature p{margin:0;color:var(--soft)}
+.feature .go span{display:inline-flex;margin-top:8px;background:var(--navy);color:#fff;font-weight:700;font-size:15px;padding:11px 18px;border-radius:13px}
+.sub-h{font-family:var(--h);font-size:19px;margin:24px 0 12px;color:var(--navy)}
+
+/* практика */
+.big-actions{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.big{border-radius:26px;padding:24px;display:flex;flex-direction:column;gap:8px;position:relative;overflow:hidden;min-height:250px}
+.big h3{margin:0;font-size:27px;line-height:1.05}
+.big p{margin:0;font-size:15px}
+.big .lbl{font-weight:700;font-size:12.5px;text-transform:uppercase;letter-spacing:.12em;opacity:.85}
+.big.base{background:var(--blue);color:#fff}
+.big.pro{background:var(--navy);color:#fff}
+.big.p2c{background:var(--pink);color:var(--navy);border:2px solid var(--pink-d)}
+.big .btn{margin-top:auto}
+.big::after{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:rgba(255,255,255,.1)}
+.big.p2c::after{background:rgba(255,255,255,.45)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;cursor:pointer;font-weight:700;font-size:16px;border-radius:14px;padding:12px 20px;text-decoration:none;transition:filter .15s,transform .1s;font-family:var(--b)}
+.btn:active{transform:translateY(1px)}
+.btn.w{background:#fff;color:var(--navy);align-self:flex-start}
+.btn.o{background:var(--navy);color:#fff}
+.btn.p{background:var(--peri-d);color:#fff}
+.btn.g{background:#fff;color:var(--navy);border:1.5px solid var(--line)}
+.btn:hover{filter:brightness(1.07)}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+
+/* режимы */
+.view{display:none}
+.view.on{display:block}
+.panel{background:#fff;border:1.5px solid var(--line);border-radius:26px;padding:26px}
+.qtop{display:flex;align-items:center;gap:14px;margin-bottom:16px;flex-wrap:wrap}
+.back{background:none;border:0;color:var(--soft);font-weight:700;cursor:pointer;font-size:14.5px;padding:4px 0}
+.back:hover{color:var(--navy)}
+.test-name{font-family:var(--h);font-size:18px;color:var(--navy)}
+.prog{flex:1;min-width:140px;height:10px;background:var(--peri-l);border-radius:99px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--peri-d);border-radius:99px;transition:width .3s}
+.score-mini{font-weight:700;color:var(--navy);font-size:14.5px;white-space:nowrap}
+.dots{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:18px}
+.dots button{width:28px;height:28px;border-radius:9px;border:1.5px solid var(--line);background:#fff;font-size:12px;font-weight:700;color:var(--soft);cursor:pointer;padding:0}
+.dots button.cur{border-color:var(--navy);color:var(--navy);box-shadow:0 0 0 2px var(--peri-l)}
+.dots button.ok{background:var(--ok);border-color:var(--ok);color:#fff}
+.dots button.bad{background:var(--bad);border-color:var(--bad);color:#fff}
+.qnum{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.qnum b{background:var(--peri-d);color:#fff;width:36px;height:36px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:15px;flex:none}
+.qnum span{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--soft);font-weight:700}
+.q{font-weight:700;margin:0 0 14px;font-size:16.5px}
+.howto{font-size:13.5px;color:var(--soft);margin:-6px 0 12px}
+
+/* выбор суждений */
+.opts{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.opt{display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;background:#fbfdff;border:1.5px solid var(--line);border-radius:14px;padding:11px 14px;cursor:pointer;font-size:15.5px;color:var(--ink);line-height:1.5;transition:border-color .12s,background .12s}
+.opt:hover:not([disabled]){border-color:var(--peri)}
+.opt .num{flex:none;width:28px;height:28px;border-radius:9px;border:2px solid var(--peri);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:14px;color:var(--blue);background:#fff;margin-top:-1px}
+.opt.sel{background:var(--peri-l);border-color:var(--peri-d)}
+.opt.sel .num{background:var(--peri-d);border-color:var(--peri-d);color:#fff}
+.opt[disabled]{cursor:default}
+.opt.r-ok{background:var(--ok-bg);border-color:#a9d6b4}
+.opt.r-ok .num{background:var(--ok);border-color:var(--ok);color:#fff}
+.opt.r-miss{border-color:var(--ok);border-style:dashed}
+.opt.r-miss .num{border-color:var(--ok);color:var(--ok)}
+.opt.r-bad{background:var(--bad-bg);border-color:#efb3bd}
+.opt.r-bad .num{background:var(--bad);border-color:var(--bad);color:#fff}
+.opt .mark{display:block;margin-top:4px;font-size:12.5px;font-weight:700}
+.r-ok .mark{color:var(--ok)}.r-miss .mark{color:var(--ok)}.r-bad .mark{color:var(--bad)}
+
+/* соответствие */
+.mright{background:var(--cream);border:1.5px dashed var(--peri);border-radius:14px;padding:10px 14px;margin:0 0 14px}
+.mright .t{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--soft);font-weight:700;margin-bottom:4px}
+.mright div.i{font-weight:700;font-size:15px}
+.mleft .t{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--soft);font-weight:700;margin:0 0 6px}
+.mrow{display:flex;align-items:center;gap:12px;padding:10px 0;border-top:1px solid var(--line)}
+.mrow:first-of-type{border-top:0}
+.mrow .lt{flex:1;font-size:15.5px}
+.mrow .lt b{color:var(--blue);margin-right:4px}
+.seg{display:flex;gap:5px;flex:none}
+.seg button{width:38px;height:38px;border-radius:11px;border:2px solid var(--peri);background:#fff;color:var(--blue);font-weight:700;font-size:15px;cursor:pointer}
+.seg button.sel{background:var(--peri-d);border-color:var(--peri-d);color:#fff}
+.seg button[disabled]{cursor:default}
+.mrow.r-ok .seg button.sel{background:var(--ok);border-color:var(--ok)}
+.mrow.r-bad .seg button.sel{background:var(--bad);border-color:var(--bad)}
+.mrow.r-bad .seg button.right{border-color:var(--ok);color:var(--ok);border-style:dashed}
+
+/* диаграмма */
+.chart{background:#fbfdff;border:1.5px solid var(--line);border-radius:16px;padding:14px 16px;margin:0 0 16px}
+.chart .legend{display:flex;gap:16px;font-size:13px;font-weight:700;margin-bottom:8px;flex-wrap:wrap}
+.chart .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.crow{margin:9px 0}
+.crow .cl{font-size:13.5px;margin-bottom:3px}
+.cbar{display:flex;align-items:center;gap:8px;margin:2px 0}
+.cbar span{display:block;height:13px;border-radius:0 6px 6px 0;min-width:3px}
+.cbar em{font-style:normal;font-size:12px;font-weight:700;color:var(--soft)}
+.chart .ax{font-size:11.5px;color:var(--soft);margin-top:6px}
+
+/* обратная связь */
+.answer-row{margin-top:18px;padding-top:16px;border-top:2px dashed var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.answer-row .picked{font-size:14.5px;color:var(--soft)}
+.answer-row .picked code{font-family:var(--b);font-weight:700;color:var(--navy);background:var(--peri-l);padding:3px 10px;border-radius:8px;font-size:16px;letter-spacing:.08em}
+.fb{margin-top:16px;border-radius:18px;padding:16px 18px;display:none}
+.fb.on{display:block}
+.fb.ok{background:var(--ok-bg);border:1.5px solid #b9dfc3}
+.fb.bad{background:var(--bad-bg);border:1.5px solid #f1c3ca}
+.fb .verdict{font-family:var(--h);font-size:21px;display:flex;align-items:center;gap:8px}
+.fb.ok .verdict{color:var(--ok)}.fb.bad .verdict{color:var(--bad)}
+.fb .right{margin:6px 0 10px;font-weight:700}
+.fb .right code{font-family:var(--b);background:#fff;border-radius:8px;padding:2px 10px;font-size:17px;color:var(--navy);border:1px solid var(--line);letter-spacing:.08em}
+.ex{font-size:14.5px}
+.ex p{margin:0 0 7px}
+.ex h4{margin:12px 0 4px;font-size:14.5px;color:var(--navy)}
+.ex ul{margin:0 0 8px;padding-left:20px}
+.ex li{margin:2px 0}
+.ex .y{color:var(--ok);font-weight:700}.ex .n{color:var(--bad);font-weight:700}
+.nav-row{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:12px;flex-wrap:wrap}
+
+/* итог */
+.result{text-align:center;padding:6px 0}
+.result img{width:130px}
+.result .big-score{font-family:var(--h);font-size:76px;color:var(--peri-d);line-height:1;margin:8px 0 4px}
+.result .big-score small{font-size:34px;color:var(--soft)}
+.result h2{margin:6px 0 4px;color:var(--navy);font-size:24px}
+.result p{color:var(--soft);margin:6px 0}
+.rgrid{display:grid;grid-template-columns:repeat(10,1fr);gap:8px;max-width:520px;margin:20px auto}
+.rgrid button{aspect-ratio:1;border-radius:11px;border:0;font-weight:700;color:#fff;cursor:pointer;font-size:14px}
+.rgrid .ok{background:var(--ok)}.rgrid .bad{background:var(--bad)}.rgrid .skip{background:#c7cfdf}
+
+/* вторая часть */
+.p2{display:grid;gap:18px}
+.src{background:var(--cream);border-left:5px solid var(--peri);border-radius:0 16px 16px 0;padding:14px 18px;margin:0 0 16px}
+.src p{margin:0 0 8px;font-size:15px}
+.src .au{text-align:right;font-style:italic;color:var(--soft);margin:0}
+details.srcd{margin-bottom:14px}
+details.srcd summary{cursor:pointer;font-weight:700;color:var(--blue);padding:4px 0}
+.subq p{margin:0 0 6px;font-size:15px}
+textarea.mine{width:100%;min-height:130px;border:2px solid var(--line);border-radius:14px;padding:12px 14px;font-family:var(--b);font-size:15px;line-height:1.55;color:var(--ink);background:#fbfdff;resize:vertical;margin-top:10px}
+textarea.mine:focus{outline:none;border-color:var(--peri-d);background:#fff}
+.reveal{margin-top:12px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.reveal small{color:var(--soft);font-size:13px}
+.ans{display:none;margin-top:14px;background:var(--pink);border:2px dashed var(--pink-d);border-radius:18px;padding:16px 18px}
+.ans.on{display:block}
+.ans h4.t{margin:0 0 8px;font-family:var(--h);font-size:19px;color:var(--navy);font-weight:700}
+
+footer{padding:36px 0 46px;text-align:center;color:var(--soft);font-size:14.5px}
+footer img{width:64px;display:block;margin:0 auto 8px}
+
+@media (max-width:860px){
+  .big-actions{grid-template-columns:1fr}
+  .big{min-height:0}
+  .videos.two{grid-template-columns:1fr}
+}
+@media (max-width:760px){
+  body{font-size:15.5px}
+  nav.links a:not(.sub-btn){display:none}
+  .hero{padding:26px 0 10px}
+  .hero .wrap{grid-template-columns:1fr}
+  .hero .logo-big{display:none}
+  .wrap{padding:0 16px}
+  .sec-h p{padding-left:0}
+  .panel{padding:18px 16px;border-radius:22px}
+  .feature{grid-template-columns:1fr}
+  .feature .th img{min-height:0;aspect-ratio:16/9}
+  .feature .bd{padding:18px}
+  .cards{grid-template-columns:repeat(2,1fr);gap:12px}
+  .dl .bd{padding:10px 12px 12px}
+  .dl h3{font-size:15px}
+  .mrow{flex-direction:column;align-items:flex-start;gap:8px}
+  .rgrid{grid-template-columns:repeat(5,1fr)}
+  .opt{font-size:15px;padding:10px 12px}
+}
+@media (max-width:380px){.cards{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#" onclick="go('home');return false"><img src="logo-cat.png" alt="Логотип «Обществознание и котики»"><b><span>обществознание</span><span>и котики</span></b></a>
+  <nav class="links">
+    <a href="#videos" onclick="go('home','videos');return false">Лекции</a>
+    <a href="#materials" onclick="go('home','scripts');return false">Материалы</a>
+    <a href="#practice" onclick="go('home','practice');return false">Тесты</a>
+    <a href="#part2" onclick="go('part2');return false">Вторая часть</a>
+    <a class="sub-btn" id="tgBtn" href="#" target="_blank" rel="noopener">Подписаться</a>
+  </nav>
+</div></header>
+
+<main>
+<!-- ГЛАВНАЯ -->
+<div id="v-home" class="view on">
+  <div class="hero"><div class="wrap">
+    <div>
+      <span class="pill">Тема 4</span>
+      <h1>Семья и брак. <em>Социальная политика.</em> Особенности профессиональной деятельности</h1>
+      <p class="lead">Смотрим лекции и заполняем скрипт, читаем учебник, учим запоминашку, разбираем российские реалии и критерии заданий 22 и 25 — а потом проверяем себя тестами и второй частью.</p>
+      <div class="steps" id="steps"></div>
+    </div>
+    <img class="logo-big" src="logo.png" alt="">
+  </div></div>
+
+  <section class="block" id="videos"><div class="wrap">
+    <div class="sec-h"><span class="n">01</span><h2>Видеолекции</h2><p>Три лекции по теме. Удобнее всего смотреть с пустым скриптом под рукой.</p></div>
+    <div class="videos" id="vLectures"></div>
+  </div></section>
+
+  <section class="block" id="scripts"><div class="wrap">
+    <div class="sec-h"><span class="n">02</span><h2>Скрипты для заполнения</h2><p>Пустые скрипты с пропусками — распечатайте и заполняйте во время лекции.</p></div>
+    <div class="cards" id="cScripts"></div>
+  </div></section>
+
+  <section class="block" id="konspekty"><div class="wrap">
+    <div class="sec-h"><span class="n">03</span><h2>Готовые конспекты</h2><p>Заполненные версии — для проверки или если хочется скачать сразу готовое.</p></div>
+    <div class="cards" id="cKonspekty"></div>
+  </div></section>
+
+  <section class="block" id="fpu"><div class="wrap">
+    <div class="sec-h"><span class="n">04</span><h2>Учебники ФПУ</h2><p>Отрывки из учебников федерального перечня — если хочется почитать материал, а не только послушать.</p></div>
+    <div class="cards" id="cFpu"></div>
+  </div></section>
+
+  <section class="block" id="zapom"><div class="wrap">
+    <div class="sec-h"><span class="n">05</span><h2>Запоминашка</h2><p>Краткая выжимка того, что нужно именно выучить.</p></div>
+    <a class="feature" href="zapominashka-4.pdf" download>
+      <div class="th"><img src="zapominashka-4.jpg" alt="Первая страница запоминашки" loading="lazy"></div>
+      <div class="bd"><h3>Запоминашка · тема 4</h3><p>Термины, классификации и факты, которые обязательно нужно знать к экзамену. Распечатайте и повторяйте перед тестом.</p><p style="font-size:13.5px">PDF · 6 страниц</p><div class="go"><span>Скачать запоминашку</span></div></div>
+    </a>
+  </div></section>
+
+  <section class="block" id="realii"><div class="wrap">
+    <div class="sec-h"><span class="n">06</span><h2>Урок по российским реалиям</h2><p>Социальная политика и национальные проекты РФ — готовые примеры для второй части.</p></div>
+    <div class="videos" id="vRealii"></div>
+    <div class="sub-h">Примеры по российским реалиям · задание 25.4</div>
+    <div class="cards" id="cRealii"></div>
+  </div></section>
+
+  <section class="block" id="criteria"><div class="wrap">
+    <div class="sec-h"><span class="n">07</span><h2>Критерии заданий 22 и 25</h2><p>Как пишут эти задания на максимальный балл. К каждому уроку — свой скрипт.</p></div>
+    <div class="videos two" id="vCriteria"></div>
+  </div></section>
+
+  <section class="block" id="warmups"><div class="wrap">
+    <div class="sec-h"><span class="n">08</span><h2>Разминки</h2><p>Видео на 5–10 минут: обобщение, закрепление и короткая практика. Можно посмотреть, если ничего не успеваете.</p></div>
+    <div class="videos two" id="vWarmups"></div>
+  </div></section>
+
+  <section class="block" id="practice"><div class="wrap">
+    <div class="sec-h"><span class="n">09</span><h2>Практика</h2><p>После каждого ответа сразу видно, верно или нет, и пояснение.</p></div>
+    <div class="big-actions">
+      <div class="big base"><span class="lbl">Часть 1</span><h3>Тест · база</h3><p><b id="nBase"></b> заданий на основные понятия темы. Начните с него.</p><button class="btn w" onclick="startTest('base')">Пройти тест БАЗА →</button></div>
+      <div class="big pro"><span class="lbl">Часть 1 · дополнительно</span><h3>Тест · про</h3><p><b id="nPro"></b> заданий посложнее — дополнительная нарешка.</p><button class="btn w" onclick="startTest('pro')">Пройти тест ПРО →</button></div>
+      <div class="big p2c"><span class="lbl">Часть 2</span><h3>Вторая часть</h3><p><b id="nP2"></b> заданий с развёрнутым ответом. Сначала напишите сами, потом сверьтесь с эталоном.</p><button class="btn o" onclick="go('part2')">К заданиям →</button></div>
+    </div>
+  </div></section>
+</div>
+
+<!-- ТЕСТ -->
+<div id="v-test" class="view"><section class="block"><div class="wrap">
+  <div class="panel" id="testPanel"></div>
+</div></section></div>
+
+<!-- ВТОРАЯ ЧАСТЬ -->
+<div id="v-part2" class="view"><section class="block"><div class="wrap">
+  <div class="qtop"><button class="back" onclick="go('home','practice')">← К теме</button></div>
+  <div class="sec-h"><span class="n">II</span><h2>Вторая часть</h2><p>Напишите ответ в поле (он сохранится в этом браузере), потом откройте эталон и сравните.</p></div>
+  <div class="p2" id="p2list"></div>
+</div></section></div>
+</main>
+
+<footer><img src="logo-cat.png" alt=""><div>Обществознание и котики<span id="tgFoot"></span></div></footer>
+
+<script>
+/* ======== НАСТРОЙКИ ======== */
+const TG_LINK='https://t.me/socialandcatss'; // ссылка на Telegram-канал, например 'https://t.me/...' — пока пусто, кнопка «Подписаться» скрыта
+
+const VIDEOS={
+  lectures:[
+    {t:'Лекция 1 · Семья и брак',id:'1635e8450b69c4c679d2750ab1c716ae',p:'G74Eft2_6U7zLtXqgJcFZA'},
+    {t:'Лекция 2 · Социальная политика',id:'8abd8afbed912283793cbc232b4d86b4',p:'sUt7Et7ANL0LplYngNhVSQ'},
+    {t:'Лекция 3 · Особенности профессиональной деятельности',id:'5dff8fd09b5f9369b067cd934bb14a84',p:'1Mwng0OvL0t8F-6W8TBLrg'}
+  ],
+  realii:[{t:'Российские реалии № 4 · Социальная политика и нацпроекты',id:'e8e19436a475965cd2ef07819c2dffd6',p:'b12xc64JtTcJWp5bZ2J7_w',files:[['Скрипт к уроку','skript-rossijskie-realii-4.pdf']]}],
+  criteria:[
+    {t:'Критерии задания 22',id:'98dc498a2349ae5b28d8914ec30a8cb4',p:'HAG7WeYutwev94z8hGg-Mw',files:[['Скрипт · задание 22','skript-zadanie-22.pdf']]},
+    {t:'Критерии задания 25',id:'af88b715d21ff1a92e731315b76b2ae8',p:'7-QDyxRVNSUgnRv3pzf-3Q',files:[['Скрипт · задание 25','skript-zadanie-25.pdf']]}
+  ],
+  warmups:[
+    {t:'Разминка 1',id:'6c17a21f780db31b7cb2eaf062388945',p:'jChTqBYIkQinrtwasf2VWA'},
+    {t:'Разминка 2',id:'0030e0a551414ad459b830a1438d1315',p:'kEDdvWndANYdP8ztwwiYTw'}
+  ]
+};
+
+const FILES={
+  scripts:[
+    {t:'Скрипт 4.1 · Семья и брак',m:'PDF · 9 стр. · с пропусками',f:'skript-4-1-semya-pustoj'},
+    {t:'Скрипт 4.2 · Социальная политика',m:'PDF · 11 стр. · с пропусками',f:'skript-4-2-socpolitika-pustoj'},
+    {t:'Скрипт 4.3 · Профессиональная деятельность',m:'PDF · 13 стр. · с пропусками',f:'skript-4-3-professii-pustoj'}
+  ],
+  konspekty:[
+    {t:'Конспект 4.1 · Семья и брак',m:'PDF · 9 стр. · заполненный',f:'konspekt-4-1-semya'},
+    {t:'Конспект 4.2 · Социальная политика',m:'PDF · 11 стр. · заполненный',f:'konspekt-4-2-socpolitika'},
+    {t:'Конспект 4.3 · Профессиональная деятельность',m:'PDF · 13 стр. · заполненный',f:'konspekt-4-3-professii'}
+  ],
+  fpu:[
+    {t:'Семья и брак',m:'ФПУ, 11 класс · 12 стр.',f:'fpu-semya-11'},
+    {t:'Социальная политика',m:'ФПУ, 11 класс · 10 стр.',f:'fpu-socpolitika-11'},
+    {t:'Особенности профессиональной деятельности',m:'ФПУ, 11 класс · 40 стр.',f:'fpu-professii-11'},
+    {t:'Семья · Медведев, часть 1',m:'ФПУ · 2 стр.',f:'fpu-medvedev-semya-1'},
+    {t:'Семья · Медведев, часть 2',m:'ФПУ · 4 стр.',f:'fpu-medvedev-semya-2'}
+  ],
+  realii:[
+    {t:'Национальные проекты',m:'Примеры 25.4 · 1 стр.',f:'25-4-nacionalnye-proekty'},
+    {t:'Помощь семьям',m:'Примеры 25.4 · 2 стр.',f:'25-4-pomoshch-semyam'},
+    {t:'Социальное обеспечение',m:'Примеры 25.4 · 3 стр.',f:'25-4-soc-obespechenie'}
+  ]
+};
+
+/* ============ ДАННЫЕ ТЕСТОВ ============
+   kind: 'set'   — ответ набором цифр (порядок не важен)
+         'match' — соответствие, ответ по буквам А–Д
+   В пояснениях: строка с "# " — подзаголовок, с "• " — пункт списка */
+
+const BASE=[
+{kind:'set',tag:'Лишние характеристики',
+q:'Ниже приведён перечень характеристик. Все они, за исключением двух, характеризуют патриархальную (традиционную) семью. Найдите две характеристики, «выпадающие» из общего ряда, и запишите цифры, под которыми они указаны.',
+items:['главенствующая роль мужчины;','взаимозаменяемость супругов при выполнении домашних обязанностей;','чёткое распределение домашних обязанностей на «мужские» и «женские»;','совместное принятие решений по семейным проблемам;','экономическая зависимость женщины от мужчины;','отсутствие реальной возможности членов семьи повлиять на принятое главой семьи решение.'],
+ans:'24',
+expl:['# Патриархальная семья','• характеризуется главенством мужчины в семье (мужчина принимает решения, несёт ответственность за семью, распоряжается бюджетом; авторитарная власть отца, в руках которого находится решение всех вопросов)','• предполагает совместное проживание нескольких поколений','• характеризуется строгим делением домашних обязанностей на мужские и женские','# Демократическая (эгалитарная, партнёрская) семья','• характеризуется справедливым распределением домашних обязанностей (нет функционально чёткого разделения и закрепления мужских и женских обязанностей)','• предполагает совместное обсуждение проблем и принятие решений всеми членами семьи','• характеризуется особой эмоциональной насыщенностью и близостью отношений',
+'1) Главенствующая роль мужчины – верно, характерно для патриархальной семьи.','2) Взаимозаменяемость супругов при выполнении домашних обязанностей – неверно, это признак демократической (партнёрской) семьи.','3) Чёткое распределение домашних обязанностей на «мужские» и «женские» – верно, черта патриархальной семьи.','4) Совместное принятие решений по семейным проблемам – неверно, признак демократической семьи.','5) Экономическая зависимость женщины от мужчины – верно, характерно для патриархальной семьи.','6) Отсутствие реальной возможности членов семьи повлиять на принятое главой семьи решение – верно, признак патриархальной семьи.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Нуклеарная семья включает в себя три и более поколения родственников.','Своеобразие семьи заключается в том, что она одновременно представляет собой и социальный институт, и малую социальную группу.','Рекреационная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта.','Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка.','Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью.'],
+ans:'245',
+expl:['1) Нуклеарная семья включает в себя три и более поколения родственников – неверно, нуклеарная семья состоит из супружеской пары и их несовершеннолетних детей.','2) Своеобразие семьи заключается в том, что она одновременно представляет собой и социальный институт, и малую социальную группу – верно, семья рассматривается и как малая группа, и как социальный институт.','3) Рекреационная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта – неверно, рекреационная функция связана с организацией досуга и отдыха, а предоставление статуса – это социально-статусная функция.','4) Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка – верно, это проявление воспитательной функции семьи.','5) Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью – верно, это определение семьи как малой группы.']},
+
+{kind:'set',tag:'Верные суждения о функциях семьи',
+q:'Выберите верные суждения о семье и её функциях и запишите цифры, под которыми они указаны.',
+items:['В зависимости от наличия ядра (супружеской четы) семья бывает патриархальной или эгалитарной.','Хозяйственно-бытовая функция семьи заключается в удовлетворении материальных потребностей членов семьи.','По отношению к обществу в ходе выполнения воспитательной функции семья обеспечивает социализацию подрастающего поколения, подготовку новых членов общества.','Рекреационная функция семьи обеспечивает восстановление физических и интеллектуальных сил её членов.','Эмоциональная функция семьи обеспечивает удовлетворение потребностей в совместном проведении досуга, взаимном духовном обогащении.'],
+ans:'234',
+expl:['1) В зависимости от наличия ядра (супружеской четы) семья бывает патриархальной или эгалитарной – неверно, по наличию ядра семьи делятся на нуклеарные и расширенные, а патриархальная и эгалитарная – это типы по распределению обязанностей.','2) Хозяйственно-бытовая функция семьи заключается в удовлетворении материальных потребностей членов семьи – верно, она включает ведение домашнего хозяйства, обеспечение материальных условий жизни, материальную взаимопомощь.','3) По отношению к обществу в ходе выполнения воспитательной функции семья обеспечивает социализацию подрастающего поколения, подготовку новых членов общества – верно, это общественная функция первичной социализации и поддержания культурной преемственности.','4) Рекреационная функция семьи обеспечивает восстановление физических и интеллектуальных сил её членов – верно, она связана с организацией рационального досуга и отдыха.','5) Эмоциональная функция семьи обеспечивает удовлетворение потребностей в совместном проведении досуга, взаимном духовном обогащении – неверно, это рекреационная функция, а эмоциональная направлена на психологическую защиту и поддержку.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Для семьи демократического (партнёрского) типа типично отсутствие жёсткого деления домашних обязанностей на мужские и женские.','Многопоколенные семьи характерны для индустриального и постиндустриального типов общества.','Своеобразие семьи заключается в том, что она одновременно представляет собой и социальный институт, и малую социальную группу.','Репродуктивная функция семьи проявляется в материальном обеспечении её нетрудоспособных членов, в ведении домашнего хозяйства, во взаимной материальной поддержке.','Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью.'],
+ans:'135',
+expl:['1) Для семьи демократического (партнёрского) типа типично отсутствие жёсткого деления домашних обязанностей на мужские и женские – верно, в демократической семье реализуется справедливое распределение домашних обязанностей, нет чёткого разделения на мужские и женские.','2) Многопоколенные семьи характерны для индустриального и постиндустриального типов общества – неверно, многопоколенные (расширенные) семьи характерны для традиционных обществ с натуральным хозяйством; для современного общества типична нуклеарная семья.','3) Своеобразие семьи заключается в том, что она одновременно представляет собой и социальный институт, и малую социальную группу – верно, семья рассматривается и как малая группа (основанная на родстве, браке, общности быта), и как социальный институт (исторически устойчивая форма организации отношений).','4) Репродуктивная функция семьи проявляется в материальном обеспечении её нетрудоспособных членов, в ведении домашнего хозяйства, во взаимной материальной поддержке – неверно, репродуктивная функция связана с биологическим воспроизводством населения и удовлетворением потребности в детях; описанное относится к хозяйственно-экономической функции.','5) Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью – верно, это определение семьи как малой группы: объединение людей, связанных общностью быта, взаимной помощью, моральной и правовой ответственностью.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье. Запишите цифры, под которыми они указаны.',
+items:['Семья, материнство, отцовство и детство в Российской Федерации находятся под защитой государства.','Репродуктивная функция семьи проявляется в материальном обеспечении её нетрудоспособных членов, в ведении домашнего хозяйства, во взаимной материальной поддержке.','В зависимости от распределения обязанностей выделяют нуклеарные и традиционные семьи.','Семейное законодательство Российской Федерации исходит из необходимости обеспечения беспрепятственного осуществления членами семьи своих прав.','Социально-статусная функция семьи предполагает получение эмоциональной поддержки, психологической защиты.'],
+ans:'14',
+expl:['1) Семья, материнство, отцовство и детство в Российской Федерации находятся под защитой государства – верно, это закреплено в статье 1 Семейного кодекса РФ как основной принцип семейного законодательства.','2) Репродуктивная функция семьи проявляется в материальном обеспечении её нетрудоспособных членов, в ведении домашнего хозяйства, во взаимной материальной поддержке – неверно, репродуктивная функция связана с рождением потомства и воспроизводством населения, а описанное относится к хозяйственно-экономической функции.','3) В зависимости от распределения обязанностей выделяют нуклеарные и традиционные семьи – неверно, нуклеарные семьи выделяются по составу (супруги с детьми), а традиционные (патриархальные) – по распределению обязанностей.','4) Семейное законодательство Российской Федерации исходит из необходимости обеспечения беспрепятственного осуществления членами семьи своих прав – верно, это указано в статье 1 и статье 7 Семейного кодекса РФ.','5) Социально-статусная функция семьи предполагает получение эмоциональной поддержки, психологической защиты – неверно, социально-статусная функция связана с предоставлением членам семьи определённого социального статуса, а эмоциональная поддержка – это эмоционально-психологическая функция.']},
+
+{kind:'set',tag:'Тенденции развития семьи',
+q:'Выберите верные суждения о тенденциях развития современной семьи.',
+items:['Увеличивается количество многодетных семей, семей традиционного типа.','Идёт развитие семьи партнёрского (эгалитарного) типа при сокращении доли патриархальных (традиционных семей).','Меняется положение женщины в семье, обусловленное ростом её социального статуса.','Наблюдается преобладание нуклеарной семьи и сокращение доли семей расширенного типа.','Растёт доля семей, в которых супруги не состоят в зарегистрированном браке.'],
+ans:'2345',
+expl:['1) Увеличивается количество многодетных семей, семей традиционного типа – неверно, в современном обществе чётко прослеживается тренд на нуклеаризацию семьи.','2) Идёт развитие семьи партнёрского (эгалитарного) типа при сокращении доли патриархальных (традиционных семей) – верно, традиционная патриархальная модель, где главой является мужчина, повсеместно уступает место партнёрской модели, основанной на равенстве, демократии и совместном принятии решений.','3) Меняется положение женщины в семье, обусловленное ростом её социального статуса – верно, получение женщинами высшего образования, карьерная активность и эмансипация напрямую влияют на распределение ролей в семье, делая его более равноправным.','4) Наблюдается преобладание нуклеарной семьи и сокращение доли семей расширенного типа – верно, это одна из основных черт развития современной семьи. Урбанизация, мобильность и индивидуализация способствуют тому, что молодые пары стремятся жить отдельно от родителей, что ведёт к доминированию нуклеарных семей.','5) Растёт доля семей, в которых супруги не состоят в зарегистрированном браке – верно, распространение фактических браков (сожительства) является общемировым трендом, отражающим изменение ценностей и отношения к официальным институтам.']},
+
+{kind:'set',tag:'Демография России',
+q:'Выберите верные суждения о демографической ситуации в РФ и запишите цифры, под которыми они указаны.',
+items:['Среди демографических проблем в РФ — высокая смертность и низкая продолжительность жизни.','Проблема старения населения существует только в России.','Увеличение численности населения России происходит за счёт миграционного прироста и сокращения естественной убыли населения.','Под гендерной диспропорцией социологи понимают неравное число мужчин и женщин в группе, организации, обществе.','Особенностью демографической ситуации в России является превышение численности сельского населения над городским.'],
+ans:'134',
+expl:['1) Среди демографических проблем в РФ — высокая смертность и низкая продолжительность жизни – верно, по данным Минздрава РФ на 2025 год, 52% мужчин не доживает до пенсии, или 65 лет.','2) Проблема старения населения существует только в России – неверно, это глобальная проблема, характерная для большинства развитых и многих развивающихся стран. Она вызвана общим снижением рождаемости и увеличением продолжительности жизни и остро стоит, например, в Японии.','3) Увеличение численности населения России происходит за счёт миграционного прироста и сокращения естественной убыли населения – верно, по одному из вариантов демографического прогноза Росстата, опубликованному в 2024 году, увеличение численности населения России возможно за счёт высокого миграционного прироста и замедления естественной убыли населения.','4) Под гендерной диспропорцией социологи понимают неравное число мужчин и женщин в группе, организации, обществе – верно, в России наблюдается значительная гендерная диспропорция в старших возрастных группах, где женщин существенно больше, чем мужчин.','5) Особенностью демографической ситуации в России является превышение численности сельского населения над городским – неверно, Россия — высокоурбанизированная страна, где доля городского населения стабильно составляет около 75%.']},
+
+{kind:'match',tag:'Соответствие',
+q:'Установите соответствие между признаками и типами семей: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.',
+h:['Признаки','Типы семей'],
+left:['совместное обсуждение и принятие всеми членами семьи важных решений','отсутствие чёткого распределения домашних обязанностей в семье','главенствующее положение отца семейства','равное участие мужчин и женщин в общественной жизни','экономическая зависимость женщины от мужчины'],
+right:['патриархальная (традиционная)','демократическая (партнёрская)'],
+ans:'22121',
+expl:['# Патриархальная семья','• характеризуется главенством мужчины в семье (мужчина принимает решения, несёт ответственность за семью, распоряжается бюджетом; авторитарная власть отца, в руках которого находится решение всех вопросов)','• предполагает совместное проживание нескольких поколений','• характеризуется строгим делением домашних обязанностей на мужские и женские','# Демократическая (эгалитарная, партнёрская) семья','• характеризуется справедливым распределением домашних обязанностей (нет функционально чёткого разделения и закрепления мужских и женских обязанностей)','• предполагает совместное обсуждение проблем и принятие решений всеми членами семьи','• характеризуется особой эмоциональной насыщенностью и близостью отношений','А) совместное обсуждение и принятие всеми членами семьи важных решений – 2) демократическая (партнёрская)','Б) отсутствие чёткого распределения домашних обязанностей в семье – 2) демократическая (партнёрская)','В) главенствующее положение отца семейства – 1) патриархальная (традиционная)','Г) равное участие мужчин и женщин в общественной жизни – 2) демократическая (партнёрская)','Д) экономическая зависимость женщины от мужчины – 1) патриархальная (традиционная)']},
+
+{kind:'set',tag:'Лишние термины',
+q:'Ниже приведён перечень терминов. Все они, за исключением двух, относятся к направлениям социальной политики в России. Найдите два термина, «выпадающих» из общего ряда.',
+items:['политика в сфере труда','политика в отношении отдельных категорий населения','политика дифференциации','миграционная политика','социальная защита малоимущих','политика дискриминации'],
+ans:'36',
+expl:['# Цели социальной политики в РФ','• сглаживание социального неравенства','• ликвидация социальной напряжённости путём повышения качества и уровня жизни населения','• поддержка тех, кто по объективным причинам не может обеспечить себе достойное существование','• обеспечение функционирования социальных лифтов, «равного старта» и продвижения каждого человека на основе его способностей и таланта','• стимулирование роста экономики за счёт поддержания потребления','# В рамках социальной политики государство обязано','• охранять труд и здоровье людей','• устанавливать гарантированный минимальный размер оплаты труда (МРОТ)','• обеспечивать государственную поддержку семьи, материнства, отцовства и детства, инвалидов и пожилых граждан','• развивать систему социальных служб','• устанавливать государственные пенсии, пособия','# Таким образом, не подходит под направления социальной политики РФ','• Политика дифференциации: социальная политика РФ направлена именно на сглаживание социального неравенства, а не на его усиление.','• Политика дискриминации: полностью противоречит конституционным принципам РФ. Социальная политика должна обеспечивать равный старт для всех граждан, поддержку уязвимых групп населения, недопущение дискриминации по любым признакам.']},
+
+{kind:'set',tag:'Верные суждения о семье и браке',
+q:'Выберите верные суждения о семье и браке. Запишите цифры, под которыми они указаны.',
+items:['Семейное законодательство Российской Федерации исходит из недопустимости произвольного вмешательства кого-либо в дела семьи.','В зависимости от распределения обязанностей выделяют расширенные и традиционные семьи.','Досуговая функция семьи связана с воспроизводством социальной структуры общества, так как предоставляет (передаёт) определённый социальный статус членам семьи.','В Российской Федерации признаётся брак, зарегистрированный органами записи актов гражданского состояния.','Функция духовного общения предполагает развитие личностей членов семьи, духовное взаимообогащение.'],
+ans:'145',
+expl:['1) Семейное законодательство Российской Федерации исходит из недопустимости произвольного вмешательства кого-либо в дела семьи – верно, это положение закреплено в Семейном кодексе РФ, которое гарантирует право каждого члена семьи на уважение его личной и семейной жизни и недопустимость вмешательства в дела семьи со стороны кого бы то ни было.','2) В зависимости от распределения обязанностей выделяют расширенные и традиционные семьи – неверно, расширенные семьи выделяются по численному составу (совместное проживание нескольких поколений), а традиционные (патриархальные) – по распределению обязанностей и способу принятия решений, это разные классификации.','3) Досуговая функция семьи связана с воспроизводством социальной структуры общества, так как предоставляет (передаёт) определённый социальный статус членам семьи – неверно, досуговая (рекреационная) функция семьи связана с организацией досуга, отдыха и духовного общения, а предоставление социального статуса – это социально-статусная функция семьи.','4) В Российской Федерации признаётся брак, зарегистрированный органами записи актов гражданского состояния – верно, согласно Семейному кодексу РФ, в Российской Федерации признаётся только брак, заключённый в органах записи актов гражданского состояния (ЗАГС).','5) Функция духовного общения предполагает развитие личностей членов семьи, духовное взаимообогащение – верно, это одна из важнейших функций семьи, которая проявляется в удовлетворении потребностей в совместном проведении досуга, взаимообогащении и духовном развитии.']},
+
+{kind:'set',tag:'Верные суждения о функциях семьи',
+q:'Выберите верные суждения о семье и её функциях и запишите цифры, под которыми они указаны.',
+items:['Семьи расширенного типа включают в себя три и более поколения родственников.','Репродуктивная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта.','Семья – основной агент вторичной социализации.','Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка.','Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью.'],
+ans:'145',
+expl:['1) Семьи расширенного типа включают в себя три и более поколения родственников – верно, расширенная семья характеризуется совместным проживанием трёх и более поколений.','2) Репродуктивная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта – неверно, репродуктивная функция связана с биологическим воспроизводством, а предоставление статуса – это социально-статусная функция.','3) Семья – основной агент вторичной социализации – неверно, семья является основным агентом первичной социализации.','4) Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка – верно, это проявление воспитательной функции семьи.','5) Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью – верно, это определение семьи как малой группы.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Рекреационная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта.','Члены семьи связаны взаимной моральной и правовой ответственностью.','Семья является основным агентом первичной социализации индивидов.','Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка.','Нуклеарные семьи включают три-четыре поколения кровных родственников, живущих вместе.'],
+ans:'234',
+expl:['1) Рекреационная функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта – неверно, рекреационная функция связана с организацией досуга и отдыха, а предоставление статуса – это социально-статусная функция.','2) Члены семьи связаны взаимной моральной и правовой ответственностью – верно, согласно определению семьи как малой группы, её члены связаны взаимной помощью, моральной и правовой ответственностью.','3) Семья является основным агентом первичной социализации индивидов – верно, семья относится к агентам первичной социализации, которые помогают усваивать правила поведения в малых группах.','4) Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка – верно, это проявление воспитательной функции семьи.','5) Нуклеарные семьи включают три-четыре поколения кровных родственников, живущих вместе – неверно, нуклеарная семья состоит из супружеской пары и несовершеннолетних детей; многопоколенная семья называется расширенной.']},
+
+{kind:'set',tag:'Анализ диаграммы',chart:'CHART13',
+q:'В ходе социологических опросов совершеннолетним гражданам задавали вопрос: «Почему некоторые молодые люди в возрасте 18–25 лет, не состоящие в браке, предпочитают жить вместе с родителями?» (Можно было выбрать несколько ответов.) Полученные результаты (в % от числа опрошенных) представлены в графическом виде. Найдите в приведённом списке выводы, которые можно сделать на основе диаграммы, и запишите цифры, под которыми они указаны.',
+items:['В 2014 г. среди опрошенных тех, кто считал, что молодые люди не готовы к самостоятельной жизни, было больше, чем тех, кто считал, что молодые люди боятся совершать необдуманные поступки.','Доля тех, кто затруднился ответить, в 2014 г. была больше, чем в 2024 г.','Доля тех, кто отметил, что молодые люди считают необходимым оказывать родителям материальную помощь, осталась неизменной на протяжении 10 лет.','В 2014 г. равные доли опрошенных затруднились ответить и выбрали другое мнение.','В 2024 г. равные доли опрошенных отметили, что молодые люди боятся совершать необдуманные поступки и что они не хотят, чтобы возникло отчуждение с родителями.'],
+ans:'135',
+expl:['1) В 2014 г. тех, кто считал, что молодые люди не готовы к самостоятельной жизни, было больше, чем тех, кто считал, что они боятся совершать необдуманные поступки – верно: в 2014 году «не готовы к самостоятельной жизни» – 50%, а «боятся совершать необдуманные поступки» – 20%.','2) Доля затруднившихся ответить в 2014 г. была больше, чем в 2024 г. – неверно: и в 2014, и в 2024 году она составляет 5%, то есть доли равны.','3) Доля тех, кто отметил необходимость оказывать родителям материальную помощь, осталась неизменной на протяжении 10 лет – верно: и в 2014, и в 2024 году этот показатель равен 5%.','4) В 2014 г. равные доли опрошенных затруднились ответить и выбрали другое мнение – неверно: затруднились 5%, а «другое мнение» – 10%.','5) В 2024 г. равные доли опрошенных отметили, что молодые люди боятся совершать необдуманные поступки и что не хотят отчуждения с родителями – верно: в 2024 году оба показателя составляют 30%.']},
+
+{kind:'set',tag:'Верные суждения о функциях семьи',
+q:'Выберите верные суждения о семье и её функциях и запишите цифры, под которыми они указаны.',
+items:['Семьи расширенного типа включают в себя три и более поколения кровных родственников.','Досуговая функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта.','Семья является основным агентом вторичной социализации.','Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка.','Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью.'],
+ans:'145',
+expl:['1) Семьи расширенного типа включают в себя три и более поколения кровных родственников – верно, расширенная (многопоколенная) семья характеризуется совместным проживанием трёх и более поколений.','2) Досуговая функция семьи проявляется в предоставлении определённого социального статуса членам семьи, в выполнении роли социального лифта – неверно, досуговая (рекреационная) функция связана с организацией досуга и отдыха, а предоставление статуса – это социально-статусная функция.','3) Семья является основным агентом вторичной социализации – неверно, семья – основной агент первичной социализации.','4) Семья призвана создать условия для физического, психического, эмоционального и интеллектуального развития ребёнка – верно, это проявление воспитательной и эмоционально-психологической функций семьи.','5) Члены семьи связаны общностью быта, взаимной материальной и моральной ответственностью – верно, это определение семьи как малой группы.']},
+
+{kind:'set',tag:'Нуклеарная семья',
+q:'Выберите верные суждения о нуклеарной семье и запишите цифры, под которыми они указаны.',
+items:['Нуклеарная семья состоит из супружеской пары с детьми.','По типу внутрисемейных отношений нуклеарная семья может быть как традиционной, так и партнёрской.','В настоящее время в Российской Федерации доля нуклеарных семей быстро сокращается.','Нуклеарный тип семьи являлся преобладающим в традиционном обществе.','Для нуклеарной семьи характерно повышенное внимание к обеспечению и воспитанию детей.'],
+ans:'125',
+expl:['1) Нуклеарная семья состоит из супружеской пары с детьми – верно. Это и есть характеристика нуклеарной семьи.','2) По типу внутрисемейных отношений нуклеарная семья может быть как традиционной, так и партнёрской – верно. Независимо от состава семьи, решения в ней могут приниматься по-разному.','3) В настоящее время в Российской Федерации доля нуклеарных семей быстро сокращается – неверно. Нуклеарных семей становится всё больше.','4) Нуклеарный тип семьи являлся преобладающим в традиционном обществе – неверно. В традиционном обществе преобладали семьи расширенного типа.','5) Для нуклеарной семьи характерно повышенное внимание к обеспечению и воспитанию детей – верно. В таких семьях рожают меньше детей, но стараются дать им больше благ.']},
+
+{kind:'set',tag:'Тенденции развития семьи в России',
+q:'Выберите верные суждения о тенденциях развития современной семьи в России и запишите цифры, под которыми они указаны.',
+items:['Сокращается число патриархальных (традиционных) семей.','В современной России преобладают семьи расширенного типа.','В современных семьях наблюдается рост количества разводов и повторных браков.','В современной семье возрастает влияние женщины.','Быстро сокращается доля «партнёрских» семей эгалитарного типа.'],
+ans:'134',
+expl:['1) Сокращается число патриархальных (традиционных) семей – верно. Сейчас многие семьи являются партнёрскими.','2) В современной России преобладают семьи расширенного типа – неверно. Преобладают нуклеарные семьи.','3) В современных семьях наблюдается рост количества разводов и повторных браков – верно. Это одна из тенденций развития семьи сегодня.','4) В современной семье возрастает влияние женщины – верно. Сейчас во многих семьях роль мужчины и женщины уравнивается.','5) Быстро сокращается доля «партнёрских» семей эгалитарного типа – неверно. Тенденция диаметрально противоположная.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Семья — исторически сложившееся социальное явление, не подверженное изменениям.','В социологической науке семья рассматривается одновременно как социальная группа и как социальный институт.','Семьи, состоящие из родителей и детей, не достигших совершеннолетия, которые живут отдельно от бабушек и дедушек, называются партнёрскими.','Семейные отношения регулируются исключительно нормами морали.','Семья является проводником норм и правил, которые приняты в обществе.'],
+ans:'25',
+expl:['1) Семья — исторически сложившееся социальное явление, не подверженное изменениям – неверно, семьи были разные: когда-то больше преобладал традиционный тип семьи, теперь партнёрские семьи.','2) В социологической науке семья рассматривается одновременно как социальная группа и как социальный институт – верно, есть два определения семьи: и как малая социальная группа, и как институт.','3) Семьи, состоящие из родителей и детей, не достигших совершеннолетия, которые живут отдельно от бабушек и дедушек, называются партнёрскими – неверно, такие семьи называются нуклеарными. Партнёрская семья характеризуется тем, что там нет разделения на «мужские» и «женские» обязанности и все виды работ делаются супругами взаимозаменяемо.','4) Семейные отношения регулируются исключительно нормами морали – неверно, также, например, нормами права (Семейным кодексом).','5) Семья является проводником норм и правил, которые приняты в обществе – верно, в семье происходит первичная социализация подрастающего поколения.']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Одной из характеристик патриархальной семьи является экономическая зависимость женщины от мужчины.','Нуклеарная семья состоит из одной пары и характеризуется малодетностью.','Расширенная семья характеризуется проживанием под одной крышей нескольких поколений родственников.','Семья выступает относительно молодым социальным институтом, приобретавшим на разных ступенях её развития различные формы.','Современная семья переживает сегодня утрату некоторых функций и передаёт их реализацию другим социальным институтам.'],
+ans:'135',
+expl:['1) Одной из характеристик патриархальной семьи является экономическая зависимость женщины от мужчины – верно, так как было чёткое разделение на мужские и женские обязанности.','2) Нуклеарная семья состоит из одной пары и характеризуется малодетностью – неверно, это семейная группа, состоящая из двух родителей и их детей (одного или нескольких).','3) Расширенная семья характеризуется проживанием под одной крышей нескольких поколений родственников – верно, так как проживают несколько поколений.','4) Семья выступает относительно молодым социальным институтом, приобретавшим на разных ступенях её развития различные формы – неверно, семья существовала очень давно и трансформировалась.','5) Современная семья переживает сегодня утрату некоторых функций и передаёт их реализацию другим социальным институтам – верно, например, досуговую.']},
+
+{kind:'set',tag:'Функции семьи',
+q:'Найдите в приведённом ниже списке верные суждения о функциях семьи и запишите цифры, под которыми они указаны.',
+items:['Биологическое воспроизводство населения на общественном уровне является сущностью репродуктивной функции.','Хозяйственно-экономическая функция семьи выражается в ведении домашнего хозяйства и организации совместного досуга.','Психологическая функция семьи заключается в создании благоприятной атмосферы в семье.','Удовлетворение потребности в детях на личном уровне является сущностью репродуктивной функции.','Социально-статусная функция семьи отражается в осуществлении контроля за членами семьи.'],
+ans:'134',
+expl:['1) Биологическое воспроизводство населения на общественном уровне является сущностью репродуктивной функции – верно, репродуктивность – это воспроизводство населения.','2) Хозяйственно-экономическая функция семьи выражается в ведении домашнего хозяйства и организации совместного досуга – неверно, хозяйственно-экономическая функция выражается в ведении домашнего хозяйства, а организация совместного досуга – это досуговая функция.','3) Психологическая функция семьи заключается в создании благоприятной атмосферы в семье – верно, это сущность психологической функции.','4) Удовлетворение потребности в детях на личном уровне является сущностью репродуктивной функции – верно, желание стать родителями проявляется в репродуктивной функции.','5) Социально-статусная функция семьи отражается в осуществлении контроля за членами семьи – неверно, социально-статусная функция отражается в предоставлении определённого социального статуса членам семьи.']},
+
+{kind:'set',tag:'Признаки семьи и брака',
+q:'Найдите в приведённом ниже списке верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Взаимная моральная и юридическая ответственность является признаком семьи.','Хозяйственно-экономическая функция семьи выражается в передаче социального статуса.','Брак, целью которого не является создание семьи, называется гражданским.','Одним из признаков семьи является ведение общего домашнего хозяйства.','Брак — это официальный, юридический союз мужчины и женщины, определяющий взаимные права и обязанности.'],
+ans:'145',
+expl:['1) Взаимная моральная и юридическая ответственность является признаком семьи – верно, это признак семьи.','2) Хозяйственно-экономическая функция семьи выражается в передаче социального статуса – неверно, хозяйственно-экономическая функция выражается в ведении домашнего хозяйства, а передачу статуса выполняет социально-статусная функция.','3) Брак, целью которого не является создание семьи, называется гражданским – неверно, такой брак называется фиктивным.','4) Одним из признаков семьи является ведение общего домашнего хозяйства – верно, это признак семьи.','5) Брак — это официальный, юридический союз мужчины и женщины, определяющий взаимные права и обязанности – верно, это определение брака.']}
+];
+
+const PRO=[
+{kind:'set',tag:'Лишние признаки',
+q:'Ниже приведён ряд признаков. Все они, за исключением двух, характеризуют партнёрскую (демократическую) семью. Найдите два признака, «выпадающих» из общего ряда.',
+items:['Экономическая зависимость женщины от мужчины','Взаимная поддержка супругов','Равенство супругов в принятии решений','Отсутствие жёсткого деления домашних обязанностей','Совместное обсуждение семейных проблем','Главенство мужчины в семье'],
+ans:'16',
+expl:['# Черты демократической (эгалитарной, партнёрской) семьи','• справедливое распределение домашних обязанностей (нет функционально чёткого разделения и закрепления мужских и женских обязанностей)','• совместное обсуждение проблем и принятие решений всеми членами семьи','• особая эмоциональная насыщенность и близость отношений','# Черты патриархальной семьи','• главенство мужчины в семье (мужчина принимает решения, несёт ответственность за семью, распоряжается бюджетом; авторитарная власть отца, в руках которого находится решение всех вопросов)','• совместное проживание нескольких поколений','• строгое деление домашних обязанностей на мужские и женские','# Таким образом, лишние характеристики','• главенство мужчины в семье','• экономическая зависимость женщины от мужчины — это черты традиционной семьи']},
+
+{kind:'set',tag:'Верные суждения',
+q:'Выберите верные суждения о семье и запишите цифры, под которыми они указаны.',
+items:['Семья относится к малым социальным группам, где отношения между членами формальны и безличны.','Воспитательная функция семьи предполагает социализацию молодого поколения.','Семья выполняет функцию первичного социального контроля.','Расширенная семья включает только супругов и их несовершеннолетних детей.','Для семьи партнёрского типа характерно совместное принятие решений всеми членами семьи.'],
+ans:'235',
+expl:['1) Семья относится к малым социальным группам, где отношения между членами формальны и безличны – неверно, семья как малая социальная группа, наоборот, характеризуется непосредственностью контактов и эмоциональной близостью.','2) Воспитательная функция семьи предполагает социализацию молодого поколения – верно, суть данной функции семьи заключается в поддержке культурной преемственности.','3) Семья выполняет функцию первичного социального контроля – верно, данная функция предполагает моральную регламентацию поведения членов семьи в различных сферах жизнедеятельности, а также ответственности и обязательств в отношениях между супругами, представителями старшего и младшего поколения.','4) Расширенная семья включает только супругов и их несовершеннолетних детей – неверно, это определение нуклеарного типа семьи, расширенная семья предполагает совместное проживание нескольких поколений.','5) Для семьи партнёрского типа характерно совместное принятие решений всеми членами семьи – верно, это черта демократической семьи.']},
+
+{kind:'match',tag:'Соответствие',
+q:'Установите соответствие между функциями семьи и примерами их проявления: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.',
+h:['Примеры проявления','Функции'],
+left:['Родители купили ребёнку школьную форму и оплатили питание.','Семья поехала вместе в поход на выходных.','Отец объяснил сыну, почему важно выполнять обещания.','Супруги рассказали ребёнку о том, кем были его бабушка с дедушкой, и подарили семейный портрет, который передаётся из поколения в поколение.','Семья обсудила вопрос распределения домашних обязанностей и составила расписание уборки.'],
+right:['хозяйственно-экономическая','воспитательная','досуговая'],
+ans:'13221',
+expl:['А) Родители купили ребёнку школьную форму и оплатили питание – 1) хозяйственно-экономическая: покупка формы и оплата питания – это материальное обеспечение и ведение семейного бюджета.','Б) Семья поехала вместе в поход на выходных – 3) досуговая: совместный поход на выходных – это организация совместного отдыха и проведение свободного времени.','В) Отец объяснил сыну, почему важно выполнять обещания – 2) воспитательная: объяснение отцом моральных норм – это целенаправленное формирование у ребёнка ценностей и моделей поведения.','Г) Супруги рассказали ребёнку о том, кем были его бабушка с дедушкой, и подарили семейный портрет – 2) воспитательная: передача семейной истории и реликвий – это воспитание уважения к традициям и прошлому своей семьи.','Д) Семья обсудила вопрос распределения домашних обязанностей и составила расписание уборки – 1) хозяйственно-экономическая: распределение домашних обязанностей – это организация совместного быта и ведения домашнего хозяйства.']},
+
+{kind:'set',tag:'Верные суждения о браке',
+q:'Выберите верные суждения о браке.',
+items:['В РФ только гражданский брак влечёт юридические последствия.','Брак, заключённый в ЗАГС, называется гражданским.','В РФ признаются юридический, фактический и церковный браки.','Брак регулирует отношения между родителями и детьми.','Брак — форма, посредством которой общество санкционирует отношения между мужчиной и женщиной.'],
+ans:'125',
+expl:['1) В РФ только гражданский брак влечёт юридические последствия – верно, в российском законодательстве только брак, зарегистрированный в органах ЗАГС, порождает правовые последствия.','2) Брак, заключённый в ЗАГС, называется гражданским – верно, гражданский брак – это как раз брак, зарегистрированный в государственных органах, а то, что в обществе называют «гражданским браком», является только сожительством.','3) В РФ признаются юридический, фактический и церковный браки – неверно, в РФ признаётся только брак, зарегистрированный в органах ЗАГС.','4) Брак регулирует отношения между родителями и детьми – неверно, брак регулирует прежде всего отношения между супругами. Отношения между родителями и детьми регулируются институтом родительства, который может существовать и вне брака.','5) Брак — форма, посредством которой общество санкционирует отношения между мужчиной и женщиной – верно, брак действительно является социальным институтом, который придаёт отношениям между мужчиной и женщиной общественное признание и правовую защиту.']},
+
+{kind:'set',tag:'Функции семьи',
+q:'Выберите верные суждения о функциях семьи.',
+items:['Репродуктивная функция реализуется только в расширенных семьях.','Социально-статусная функция предполагает обеспечение старших членов семьи экономической поддержкой.','Рекреационная функция семьи связана с организацией отдыха и досуга членов семьи.','Воспитательная функция семьи связана с формированием гражданской позиции у детей.','Эмоционально-психологическая функция семьи обеспечивает психологическую стабильность личности.'],
+ans:'345',
+expl:['1) Репродуктивная функция реализуется только в расширенных семьях – неверно, репродуктивная функция может реализовываться в семьях любого типа – нуклеарных, расширенных и др.','2) Социально-статусная функция предполагает обеспечение старших членов семьи экономической поддержкой – неверно, это хозяйственно-экономическая функция семьи.','3) Рекреационная функция семьи связана с организацией отдыха и досуга членов семьи – верно, эта функция направлена на восстановление физических и духовных сил, организацию совместного досуга.','4) Воспитательная функция семьи связана с формированием гражданской позиции у детей – верно, воспитательная функция включает не только общее развитие, но и формирование гражданских качеств, нравственных ориентиров.','5) Эмоционально-психологическая функция семьи обеспечивает психологическую стабильность личности – верно, эта функция направлена на создание благоприятного психологического климата, эмоциональной поддержки и чувства защищённости.']},
+
+{kind:'match',tag:'Соответствие',
+q:'Установите соответствие между характеристиками и типами семей: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.',
+h:['Характеристики','Типы семей'],
+left:['Справедливое распределение домашних обязанностей','Совместное обсуждение проблем и принятие решений всеми членами семьи','Главенство мужчины в семье','Особая эмоциональная насыщенность и близость отношений','Строгое деление домашних обязанностей на мужские и женские'],
+right:['партнёрская','патриархальная'],
+ans:'11212',
+expl:['# Патриархальная семья','• характеризуется главенством мужчины в семье (мужчина принимает решения, несёт ответственность за семью, распоряжается бюджетом; авторитарная власть отца, в руках которого находится решение всех вопросов)','• предполагает совместное проживание нескольких поколений','• характеризуется строгим делением домашних обязанностей на мужские и женские','# Демократическая (эгалитарная, партнёрская) семья','• характеризуется справедливым распределением домашних обязанностей (нет функционально чёткого разделения и закрепления мужских и женских обязанностей)','• предполагает совместное обсуждение проблем и принятие решений всеми членами семьи','• характеризуется особой эмоциональной насыщенностью и близостью отношений','А) Справедливое распределение домашних обязанностей – 1) партнёрская','Б) Совместное обсуждение проблем и принятие решений всеми членами семьи – 1) партнёрская','В) Главенство мужчины в семье – 2) патриархальная','Г) Особая эмоциональная насыщенность и близость отношений – 1) партнёрская','Д) Строгое деление домашних обязанностей на мужские и женские – 2) патриархальная']},
+
+{kind:'set',tag:'Тенденции развития семьи',
+q:'Выберите верные суждения о тенденциях развития семьи в современном обществе.',
+items:['Увеличивается роль женщин в принятии семейных решений.','Происходит укрепление многопоколенных семей.','Снижается уровень экономической зависимости супругов друг от друга.','Увеличивается количество патриархальных семей.','Наблюдается рост числа неполных семей.'],
+ans:'135',
+expl:['1) Увеличивается роль женщин в принятии семейных решений – верно, в современном обществе действительно наблюдается тенденция к эгалитарным семьям, где решения принимаются совместно, а роль женщины в этом процессе возрастает.','2) Происходит укрепление многопоколенных семей – неверно, в современном обществе преобладает тенденция к нуклеаризации семьи – раздельному проживанию разных поколений.','3) Снижается уровень экономической зависимости супругов друг от друга – верно, экономическая независимость супругов растёт благодаря увеличению числа работающих женщин.','4) Увеличивается количество патриархальных семей – неверно, наблюдается обратная тенденция – количество патриархальных семей сокращается, уступая место партнёрским моделям семьи.','5) Наблюдается рост числа неполных семей – верно, статистика подтверждает увеличение количества неполных семей, что связано с ростом числа разводов и увеличением количества матерей-одиночек.']},
+
+{kind:'set',tag:'Лишние признаки',
+q:'Ниже приведён ряд признаков. Все они, за исключением двух, относятся к функциям социальной политики государства. Найдите два признака, «выпадающих» из общего ряда.',
+items:['сдерживание экономического роста','сглаживание социального неравенства','обеспечение функционирования социальных лифтов','развитие экономики через поддержку потребления','повышение социальной напряжённости','поддержка социально уязвимых групп'],
+ans:'15',
+expl:['# Цели социальной политики в РФ','• сглаживание социального неравенства','• ликвидация социальной напряжённости путём повышения качества и уровня жизни населения','• поддержка тех, кто по объективным причинам не может обеспечить себе достойное существование','• обеспечение функционирования социальных лифтов, «равного старта» и продвижения каждого человека на основе его способностей и таланта','• стимулирование роста экономики за счёт поддержания потребления','# В рамках социальной политики государство обязано','• охранять труд и здоровье людей','• устанавливать гарантированный минимальный размер оплаты труда (МРОТ)','• обеспечивать государственную поддержку семьи, материнства, отцовства и детства, инвалидов и пожилых граждан','• развивать систему социальных служб','• устанавливать государственные пенсии, пособия','# Таким образом, не подходит','• сдерживание экономического роста – это не цель государства, государство, наоборот, стремится к экономическому росту;','• повышение социальной напряжённости – это прямая противоположность одной из главных целей социальной политики, которая как раз направлена на снижение такой напряжённости.']},
+
+{kind:'set',tag:'Социальная политика',
+q:'Выберите верные суждения о социальной политике государства.',
+items:['Реализация социальной политики происходит исключительно на федеральном уровне.','Социальная политика способствует социальной стабильности общества.','Социальная политика проявляется в научно-технических, экологическом и информационном направлениях.','Одним из направлений социальной политики является обеспечение социальной защиты граждан.','Социальная политика не влияет на экономику.'],
+ans:'24',
+expl:['1) Реализация социальной политики происходит исключительно на федеральном уровне – неверно, социальная политика реализуется на всех уровнях власти: федеральном, региональном и муниципальном.','2) Социальная политика способствует социальной стабильности общества – верно, социальная политика способствует снижению социального неравенства, например через перераспределение доходов, а также через поддержку уязвимых групп населения, что предотвращает их маргинализацию.','3) Социальная политика проявляется в научно-технических, экологическом и информационном направлениях – неверно, это самостоятельные направления государственной политики. Социальная политика сосредоточена на социальной защите, уровне жизни, здравоохранении, образовании и других социальных аспектах.','4) Одним из направлений социальной политики является обеспечение социальной защиты граждан – верно, это одна из основных целей социальной политики.','5) Социальная политика не влияет на экономику – неверно, социальная политика тесно связана с экономикой: инвестиции в человеческий капитал повышают производительность труда, а социальные выплаты поддерживают потребительский спрос.']},
+
+{kind:'set',tag:'Социальная защита',
+q:'Выберите верные суждения о социальной защите.',
+items:['Социальная защита направлена на обеспечение равных доходов всех граждан.','Основой социальной защиты является законодательное регулирование.','Социальная защита осуществляется исключительно коммерческими структурами.','Социальная защита включает меры материальной и нематериальной поддержки.','Социальная защита предоставляется только пенсионерам.'],
+ans:'24',
+expl:['1) Социальная защита направлена на обеспечение равных доходов всех граждан – неверно, ключевая задача социальной защиты — не уравнивание, а сглаживание неравенства и предоставление социальных гарантий.','2) Основой социальной защиты является законодательное регулирование – верно, права на получение помощи, её виды, размеры и условия прописаны в федеральных законах.','3) Социальная защита осуществляется исключительно коммерческими структурами – неверно, основным субъектом социальной защиты является государство.','4) Социальная защита включает меры материальной и нематериальной поддержки – верно, система социальной защиты комплексна: к материальной поддержке относятся пенсии, пособия, субсидии, к нематериальной – социальное обслуживание (помощь на дому), предоставление льгот.','5) Социальная защита предоставляется только пенсионерам – неверно, социальная защита предназначена для всех уязвимых категорий граждан: инвалидов, семей с детьми, безработных, малоимущих, сирот и других.']},
+
+{kind:'match',tag:'Соответствие',
+q:'Установите соответствие между примерами и направлениями социальной политики РФ: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.',
+h:['Примеры','Направления социальной политики'],
+left:['семья с детьми получила материнский капитал;','пенсионеру предоставили бесплатный проезд в городском транспорте;','молодой специалист устроился на работу через ярмарку вакансий;','жителю с инвалидностью установили пандус у подъезда;','семья получила субсидию на покупку жилья.'],
+right:['поддержка семьи, материнства и детства','социальная защита инвалидов и пожилых граждан','обеспечение занятости'],
+ans:'12321',
+expl:['А) Семья с детьми получила материнский капитал – 1) поддержка семьи, материнства и детства: материнский капитал – это мера прямой поддержки семей с детьми.','Б) Пенсионеру предоставили бесплатный проезд в городском транспорте – 2) социальная защита инвалидов и пожилых граждан: льготы для пенсионеров направлены на социальную защиту пожилых людей.','В) Молодой специалист устроился на работу через ярмарку вакансий – 3) обеспечение занятости: ярмарки вакансий помогают трудоустройству и относятся к политике занятости.','Г) Жителю с инвалидностью установили пандус у подъезда – 2) социальная защита инвалидов и пожилых граждан: создание доступной среды для людей с инвалидностью – часть социальной защиты.','Д) Семья получила субсидию на покупку жилья – 1) поддержка семьи, материнства и детства: жилищные субсидии для семей направлены на улучшение их условий жизни.']},
+
+{kind:'set',tag:'Цели социальной политики',
+q:'Выберите верные суждения о целях социальной политики.',
+items:['Социальная политика способствует снижению социальной напряжённости.','Социальная политика реализуется только через благотворительные фонды.','Целью социальной политики является повышение качества жизни населения.','Одной из целей является повышение конкурентоспособности государства.','Социальная политика направлена на ликвидацию социальных различий.'],
+ans:'1345',
+expl:['1) Социальная политика способствует снижению социальной напряжённости – верно, путём выравнивания социальных неравенств, поддержки нуждающихся и обеспечения социальной справедливости социальная политика действительно снижает напряжённость в обществе.','2) Социальная политика реализуется только через благотворительные фонды – неверно, основными субъектами социальной политики являются государственные и муниципальные органы власти.','3) Целью социальной политики является повышение качества жизни населения – верно, это ключевая, комплексная цель социальной политики, достигаемая через улучшение условий жизни, здоровья, образования и других социальных благ.','4) Одной из целей является повышение конкурентоспособности государства – верно, инвестиции в человеческий капитал (образование, здравоохранение) напрямую влияют на качество трудовых ресурсов и, следовательно, на экономическую конкурентоспособность страны.','5) Социальная политика направлена на ликвидацию социальных различий – верно, это одна из целей социальной политики.']},
+
+{kind:'set',tag:'Лишние признаки',
+q:'Ниже приведён ряд признаков. Все они, за исключением двух, характеризуют кризис института семьи. Найдите два признака, «выпадающих» из общего ряда.',
+items:['снижение числа зарегистрированных браков','повышение рождаемости','рост числа неполных семей','рост числа разводов','усиление родственных связей','уменьшение числа детей в семьях'],
+ans:'25',
+expl:['Кризис института семьи проявляется в его ослаблении, нарушении традиционных функций и устойчивости. Таким признакам соответствуют:','• уменьшение числа детей в семьях','• рост числа разводов','• рост числа неполных семей','• снижение числа зарегистрированных браков','Усиление родственных связей, напротив, говорит о сплочённости и силе семейных отношений, что является признаком стабильности института.','Повышение рождаемости также противоречит идее кризиса, так как свидетельствует о реализации одной из ключевых функций семьи – репродуктивной.']},
+
+{kind:'set',tag:'Поддержка семьи государством',
+q:'Выберите верные суждения о мерах государственной поддержки семьи.',
+items:['Пособие по беременности и родам предоставляется работающим женщинам.','Семейная ипотека — мера, направленная на улучшение жилищных условий.','Государство предоставляет помощь только семьям с тремя и более детьми.','Пособие по уходу за ребёнком выплачивается до достижения ребёнком 18 лет.','Материнский капитал может быть направлен на образование детей.'],
+ans:'125',
+expl:['1) Пособие по беременности и родам предоставляется работающим женщинам – верно, официально трудоустроенная женщина, получающая «белую» зарплату, имеет право на пособие по беременности и родам.','2) Семейная ипотека — мера, направленная на улучшение жилищных условий – верно, государственная программа «Семейная ипотека» предоставляет льготные условия кредитования для покупки жилья семьями с детьми.','3) Государство предоставляет помощь только семьям с тремя и более детьми – неверно, существуют различные меры поддержки для семей с разным количеством детей.','4) Пособие по уходу за ребёнком выплачивается до достижения ребёнком 18 лет – неверно, ежемесячное пособие по уходу за ребёнком выплачивается до достижения ребёнком возраста 1,5 лет.','5) Материнский капитал может быть направлен на образование детей – верно, одним из направлений использования материнского капитала является оплата образования любого из детей в образовательной организации.']},
+
+{kind:'match',tag:'Соответствие',
+q:'Установите соответствие между ситуациями и видами воспитания в семье: к каждой позиции, данной в первом столбце, подберите соответствующую позицию из второго столбца.',
+h:['Ситуации','Виды воспитания'],
+left:['Родители требуют строгого соблюдения правил, не обсуждая свои решения.','Родители стараются обсуждать с детьми их поступки и вместе искать решения.','Каждый член семьи ведёт себя независимо, родители не контролируют ребёнка.','Мама разрешает сыну делать всё, что он хочет, не вмешиваясь в его дела.','Родители поощряют ребёнка самостоятельно принимать решения, но помогают при необходимости.'],
+right:['авторитарное','демократическое','либеральное'],
+ans:'12332',
+expl:['А) Родители требуют строгого соблюдения правил, не обсуждая свои решения – 1) авторитарное: жёсткий контроль, отсутствие дискуссий.','Б) Родители стараются обсуждать с детьми их поступки и вместе искать решения – 2) демократическое: сотрудничество, учёт мнения ребёнка.','В) Каждый член семьи ведёт себя независимо, родители не контролируют ребёнка – 3) либеральное: минимальное вмешательство, самостоятельность.','Г) Мама разрешает сыну делать всё, что он хочет, не вмешиваясь в его дела – 3) либеральное: пример попустительства – крайняя форма либерального стиля.','Д) Родители поощряют ребёнка самостоятельно принимать решения, но помогают при необходимости – 2) демократическое: сочетание самостоятельности и поддержки соответствует демократическому стилю.']}
+];
+
+/* Диаграмма к заданию 13 (БАЗА). Значения со звёздочкой в исходнике не было —
+   они подобраны так, чтобы не противоречить ответу. Поменяйте на свои, если есть оригинал. */
+const CHART13={
+  years:['2014 г.','2024 г.'],
+  rows:[
+    ['не готовы к самостоятельной жизни',50,40],
+    ['боятся совершать необдуманные поступки',20,30],
+    ['не хотят, чтобы возникло отчуждение с родителями',15,30],
+    ['считают необходимым оказывать родителям материальную помощь',5,5],
+    ['другое мнение',10,10],
+    ['затруднились ответить',5,5]
+  ]
+};
+
+/* ============ ВТОРАЯ ЧАСТЬ ============ */
+const P2_TEXT={
+  author:'Э. Гидденс',
+  text:['Большое разнообразие форм семьи стало привычной чертой нашего времени. Люди женятся менее охотно, чем раньше, и предпочитают делать это в более позднем возрасте. Уровень разводов существенно возрос, что привело к росту числа неполных семей. Всё больше людей выбирают перед заключением брака, а часто и вместо него, форму совместного проживания – сожительство.',
+  'Изменился не только состав семей и домашнего окружения. Не менее важно изменение ожиданий людей в отношении их связей с другими. Всё больше связи зависят от сотрудничества и общения между их участниками. Эмоциональное общение стало самым важным не только в связях, основанных на любви, но и в дружбе и общении с родственниками и детьми. Изменения в семейной жизни часто сталкиваются с призывами вернуться к прошлым «золотым денькам». Однако назад пути нет. Мы должны активно и творчески интересоваться меняющимся миром.',
+  'Прежде всего, нужно определить ключевые понятия семьи и брака. Семья – это группа людей, связанных прямыми родственными отношениями, взрослые члены которой принимают на себя обязательства по уходу за детьми. Брак можно определить как получивший общественное признание и одобрение сексуальный союз двух взрослых лиц. Индивиды, вступившие в брак, становятся родственниками друг другу, но их брачные обязательства связывают родственными узами гораздо более широкий круг людей. Семейные отношения всегда рассматриваются в рамках более широких родственных групп. Практически во всех обществах можно выделить то, что социологи и антропологи называют нуклеарной семьей. В обществах, предшествующих индустриальному, распространенной была расширенная семья.']
+};
+
+const P2=[
+{n:17,tag:'Работа с текстом',src:true,
+q:'Какие тенденции, обуславливающие разнообразие современных форм семейных отношений, называет автор? Как автор текста определяет семью и брак? Какая семья была распространенной в обществах, предшествующих индустриальному?',
+a:['1) Ответ на первый вопрос: «Люди женятся менее охотно, чем раньше, и предпочитают делать это в более позднем возрасте. Уровень разводов существенно возрос, что привело к росту числа неполных семей. Всё больше людей выбирают перед заключением брака, а часто и вместо него, форму совместного проживания – сожительство».','2) Ответ на второй вопрос: «Семья – это группа людей, связанных прямыми родственными отношениями, взрослые члены которой принимают на себя обязательства по уходу за детьми. Брак можно определить как получивший общественное признание и одобрение сексуальный союз двух взрослых лиц».','3) Ответ на третий вопрос: «В обществах, предшествующих индустриальному, распространенной была расширенная семья».']},
+{n:18,tag:'Работа с текстом',src:true,
+q:'В тексте упомянуты ключевые понятия социально-гуманитарных наук. Используя обществоведческие знания, — укажите не менее трёх основных признаков семьи, отличающих её от других малых групп; — объясните связь, существующую между преобладающим в обществе типом семьи и количеством разводов. (Объяснение с опорой на текст может быть дано в одном или нескольких распространённых предложениях.)',
+a:['# 1) Основные признаки семьи, отличающие её от других малых групп','• общность быта;','• брачные и/или родственные связи между её членами;','• взаимная моральная ответственность супругов за здоровье детей и их воспитание;','• особые морально-психологические и правовые отношения.','# 2) Связь между типом семьи и количеством разводов','Партнёрский тип семьи приводит к большему количеству разводов вследствие экономической независимости супругов и их большей свободы, которая позволяет принимать более радикальные решения в жизни.']},
+{n:19,tag:'Меры социальной политики',
+q:'Используя обществоведческие знания и факты общественной жизни, назовите три меры социальной политики, направленных на поддержку института семьи, и проиллюстрируйте их конкретными примерами. (В каждом случае сначала назовите конкретную меру, затем приведите пример. Каждый пример должен быть сформулирован развёрнуто.)',
+a:['1) Материальная поддержка семей. В России семьи при рождении ребёнка могут получить «материнский капитал» и потратить его на важные для семьи цели.','2) Льготы для многодетных семей. В России семьи с большим количеством детей имеют право взять льготный ипотечный кредит со сниженной процентной ставкой.','3) Социальное поощрение многодетности. В России существует звание «Мать-героиня», которым награждают женщин, родивших и воспитавших большое количество детей.']},
+{n:20,tag:'Суждения-предположения',
+q:'Каким образом благополучие семьи влияет на благополучие всего общества? Выскажите три предположения. (Каждое суждение должно быть сформулировано как распространённое предложение.)',
+a:['1) Здоровая семья способствует физическому и демографическому развитию общества, поскольку именно в таких семьях чаще рождаются и воспитываются здоровые дети, что обеспечивает не только биологическое, но и социальное воспроизводство населения и устойчивое будущее всего социума.','2) В крепкой, эмоционально благополучной семье ребёнок с раннего детства учится взаимодействовать с другими людьми, осваивает нормы поведения и получает чувство защищённости, благодаря чему формируется его психологическое здоровье и способность успешно адаптироваться в обществе.','3) Экономически обеспеченная семья регулярно потребляет товары и услуги, оплачивает обучение, отдых и культурные мероприятия, тем самым поддерживая внутренний спрос, который является важнейшим фактором стабильного экономического развития страны.','4) Дети, выросшие в атмосфере доверия и взаимоуважения, усваивают положительные модели поведения родителей, поэтому, став взрослыми, они чаще создают собственные крепкие семьи, что способствует сохранению традиционных семейных ценностей и укреплению социальной стабильности общества.']},
+{n:25,tag:'Социальная поддержка',
+q:'Выполните задания.',
+sub:['1) Обоснуйте необходимость государственной поддержки социально незащищённых слоёв населения. (Обоснование должно быть дано с опорой на обществоведческие знания в нескольких связанных между собой распространённых предложениях, раскрывать причинно-следственные и (или) функциональные связи.)','2) Какие категории социально незащищённых слоёв населения существуют в РФ? (Назовите любые три категории.)','3) Для каждой из указанных категорий приведите по одному примеру, иллюстрирующему меры поддержки, которые оказывает им РФ. (Каждый пример должен быть сформулирован развёрнуто. В совокупности примеры должны иллюстрировать три различные меры.)'],
+a:['# 1) Обоснование','Под государственной поддержкой понимают комплекс мер, направленных на улучшение качества жизни социально незащищённых слоёв населения, к которым можно отнести безработных, инвалидов, многодетные семьи, матерей-одиночек, пенсионеров и др. Государство является центральным институтом общества, который способен на постоянной и безвозмездной основе оказывать необходимую помощь. Государство напрямую заинтересовано в улучшении жизни своих граждан, т. к. поддержание достойного уровня жизни населения избавляет общество от таких проблем, как социальная и политическая напряжённость, криминализация общества, безработица и т. д. Всё это свидетельствует о необходимости государственной поддержки социально незащищённых слоёв населения.','# 2) Категории','Безработные, студенты, инвалиды.','# 3) Примеры мер поддержки','• Безработные. В РФ безработным выплачивается пособие по безработице, что позволяет им иметь средства к существованию на период поиска работы, который может затянуться.','• Инвалиды. Иван – инвалид 2 группы из Сочи, в соответствии с законом РФ он получает скидку 50% при покупке лекарств и медицинской техники.','• Студенты. Анастасия, студентка технического университета, получила стипендию Правительства РФ за успехи в учёбе и участие в научных проектах. Благодаря этой поддержке она смогла оплатить поездку на всероссийскую конференцию и приобрести материалы для исследования.']}
+];
+
+
+/* ======== ОБЩЕЕ ======== */
+const LET='АБВГДЕ';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const DL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>';
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+if(TG_LINK){document.getElementById('tgBtn').href=TG_LINK;document.getElementById('tgFoot').innerHTML=' · <a href="'+esc(TG_LINK)+'" target="_blank" rel="noopener">'+esc(TG_LINK.replace(/^https?:\/\//,''))+'</a>'}
+else document.getElementById('tgBtn').style.display='none';
+
+const STEPS=[['videos','Лекции'],['scripts','Скрипты'],['konspekty','Конспекты'],['fpu','Учебники'],['zapom','Запоминашка'],['realii','Реалии'],['criteria','Критерии 22 и 25'],['warmups','Разминки'],['practice','Практика']];
+document.getElementById('steps').innerHTML=STEPS.map((s,i)=>`<a href="#${s[0]}"><b>${i+1}</b>${s[1]}</a>`).join('');
+
+function videoCard(v,i,num){
+  const src=`https://rutube.ru/play/embed/${v.id}/?p=${v.p}`, page=`https://rutube.ru/video/private/${v.id}/?p=${v.p}`;
+  const files=v.files?`<div class="vf">${v.files.map(f=>`<a class="chip-dl" href="${f[1]}" download>${DL}${esc(f[0])} · PDF</a>`).join('')}</div>`:'';
+  return `<div class="video"><div class="vh">${num?`<span class="tag">${i+1}</span>`:''}<h3>${esc(v.t)}</h3><a href="${page}" target="_blank" rel="noopener">Открыть на Rutube ↗</a></div>
+  <div class="ratio"><iframe src="${src}" title="${esc(v.t)}" loading="lazy" allow="clipboard-write; autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>${files}</div>`;
+}
+const fill=(id,list,num=true)=>document.getElementById(id).innerHTML=list.map((v,i)=>videoCard(v,i,num)).join('');
+fill('vLectures',VIDEOS.lectures);fill('vRealii',VIDEOS.realii,false);fill('vCriteria',VIDEOS.criteria,false);fill('vWarmups',VIDEOS.warmups);
+
+function fileCard(x,cls){
+  return `<a class="dl ${cls||''}" href="${x.f}.pdf" download><div class="th"><img src="${x.f}.jpg" alt="" loading="lazy"></div><div class="bd"><h3>${esc(x.t)}</h3><span class="meta">${esc(x.m)}</span><div class="go"><span>${DL.replace('<svg','<svg width="15" height="15"')}Скачать</span></div></div></a>`;
+}
+const cards=(id,list,cls)=>document.getElementById(id).innerHTML=list.map(x=>fileCard(x,cls)).join('');
+cards('cScripts',FILES.scripts);cards('cKonspekty',FILES.konspekty,'pink');cards('cFpu',FILES.fpu);cards('cRealii',FILES.realii,'pink');
+
+document.getElementById('nBase').textContent=BASE.length;
+document.getElementById('nPro').textContent=PRO.length;
+document.getElementById('nP2').textContent=P2.length;
+
+function go(v,anchor){
+  document.querySelectorAll('.view').forEach(e=>e.classList.toggle('on',e.id==='v-'+v));
+  if(anchor){requestAnimationFrame(()=>document.getElementById(anchor).scrollIntoView())}else window.scrollTo(0,0);
+}
+
+/* пояснения: "# " — подзаголовок, "• " — пункт; «– верно / – неверно» подсвечиваются */
+function rich(lines){
+  let h='',ul=false;
+  const hl=s=>esc(s).replace(/([–—-]\s)(неверно|верно)/g,(m,d,w)=>d+`<span class="${w==='верно'?'y':'n'}">${w}</span>`);
+  for(const l of lines){
+    if(l.startsWith('• ')){if(!ul){h+='<ul>';ul=true}h+=`<li>${hl(l.slice(2))}</li>`;continue}
+    if(ul){h+='</ul>';ul=false}
+    if(l.startsWith('# '))h+=`<h4>${esc(l.slice(2))}</h4>`;else h+=`<p>${hl(l)}</p>`;
+  }
+  return h+(ul?'</ul>':'');
+}
+
+/* ======== ТЕСТ ======== */
+const TESTS={base:{name:'Тест · база',q:BASE},pro:{name:'Тест · про',q:PRO}};
+let T=null,cur=0,res=[],picks=[];
+
+function startTest(k){T=TESTS[k];T.key=k;cur=0;res=new Array(T.q.length).fill(null);picks=T.q.map(t=>t.kind==='match'?new Array(t.left.length).fill(null):[]);go('test');renderQ()}
+
+function chartHTML(c){
+  const max=Math.max(...c.rows.flatMap(r=>[r[1],r[2]])), cols=['var(--peri)','var(--navy)'];
+  return `<div class="chart" role="img" aria-label="Диаграмма с результатами опроса"><div class="legend">${c.years.map((y,i)=>`<span><i style="background:${cols[i]}"></i>${y}</span>`).join('')}</div>`+
+  c.rows.map(r=>`<div class="crow"><div class="cl">${esc(r[0])}</div>${[r[1],r[2]].map((v,i)=>`<div class="cbar"><span style="width:${v/max*82}%;background:${cols[i]}"></span><em>${v}%</em></div>`).join('')}</div>`).join('')+
+  `<div class="ax">в % от числа опрошенных</div></div>`;
+}
+
+function body(t,i){
+  let h=`<p class="q">${esc(t.q)}</p>`;
+  if(t.chart)h+=chartHTML(window[t.chart]||CHART13);
+  if(t.kind==='set'){
+    h+=`<p class="howto">Нажмите на нужные варианты — порядок не важен.</p><div class="opts">`+t.items.map((x,j)=>`<button class="opt${picks[i].includes(j+1)?' sel':''}" data-n="${j+1}" onclick="togglePick(${j+1})"><span class="num">${j+1}</span><span class="tx">${esc(x)}</span></button>`).join('')+'</div>';
+  }else{
+    h+=`<div class="mright"><div class="t">${esc(t.h[1])}</div>${t.right.map((x,j)=>`<div class="i">${j+1}) ${esc(x)}</div>`).join('')}</div>`;
+    h+=`<div class="mleft"><div class="t">${esc(t.h[0])} — выберите цифру для каждой буквы</div>`+t.left.map((x,r)=>`<div class="mrow" data-r="${r}"><div class="lt"><b>${LET[r]})</b>${esc(x)}</div><div class="seg">${t.right.map((_,j)=>`<button class="${picks[i][r]===j+1?'sel':''}" onclick="setPick(${r},${j+1})" aria-label="${LET[r]} — ${j+1}">${j+1}</button>`).join('')}</div></div>`).join('')+'</div>';
+  }
+  return h;
+}
+function pickedStr(i){const t=T.q[i],p=picks[i];return t.kind==='set'?[...p].sort().join(''):p.map(x=>x||'·').join('')}
+function dots(){return '<div class="dots">'+T.q.map((_,i)=>`<button class="${i===cur?'cur ':''}${res[i]===true?'ok':res[i]===false?'bad':''}" onclick="cur=${i};renderQ()" aria-label="Задание ${i+1}">${i+1}</button>`).join('')+'</div>'}
+
+function renderQ(){
+  const t=T.q[cur],n=T.q.length,done=res.filter(x=>x!==null).length,pts=res.filter(x=>x===true).length;
+  document.getElementById('testPanel').innerHTML=`<div class="qtop"><button class="back" onclick="go('home','practice')">← К теме</button><span class="test-name">${T.name}</span><div class="prog"><i style="width:${done/n*100}%"></i></div><span class="score-mini">${pts} / ${n} баллов</span></div>
+  ${dots()}
+  <div class="qnum"><b>${cur+1}</b><span>${esc(t.tag)}</span></div>
+  ${body(t,cur)}
+  <div class="answer-row"><button class="btn p" id="chk" onclick="check()">Проверить</button><span class="picked">Ваш ответ: <code id="pk">${pickedStr(cur)||'—'}</code></span></div>
+  <div class="fb" id="fb"></div>
+  <div class="nav-row"><button class="btn g" onclick="prev()" ${cur===0?'disabled':''}>← Назад</button><button class="btn o" onclick="next()">${cur===n-1?'Завершить':'Дальше →'}</button></div>`;
+  if(res[cur]!==null)showFB(true);
+}
+function togglePick(n){if(res[cur]!==null)return;const p=picks[cur],k=p.indexOf(n);k<0?p.push(n):p.splice(k,1);document.querySelector(`.opt[data-n="${n}"]`).classList.toggle('sel');document.getElementById('pk').textContent=pickedStr(cur)||'—'}
+function setPick(r,v){if(res[cur]!==null)return;picks[cur][r]=v;document.querySelectorAll(`.mrow[data-r="${r}"] .seg button`).forEach((b,j)=>b.classList.toggle('sel',j+1===v));document.getElementById('pk').textContent=pickedStr(cur)}
+function check(){
+  if(res[cur]!==null)return;
+  const t=T.q[cur],p=picks[cur];
+  if(t.kind==='set'&&!p.length||t.kind==='match'&&p.includes(null)){flash();return}
+  res[cur]=pickedStr(cur)===(t.kind==='set'?[...t.ans].sort().join(''):t.ans);
+  showFB(false);
+  const n=T.q.length;
+  document.querySelector('.prog i').style.width=(res.filter(x=>x!==null).length/n*100)+'%';
+  document.querySelector('.score-mini').textContent=res.filter(x=>x===true).length+' / '+n+' баллов';
+  document.querySelectorAll('.dots button')[cur].classList.add(res[cur]?'ok':'bad');
+}
+function flash(){const a=document.querySelector('.answer-row');a.animate([{transform:'translateX(0)'},{transform:'translateX(-6px)'},{transform:'translateX(6px)'},{transform:'translateX(0)'}],{duration:260});document.getElementById('pk').textContent=T.q[cur].kind==='set'?'выберите варианты':'выберите цифры для всех букв'}
+function showFB(locked){
+  const t=T.q[cur],ok=res[cur],fb=document.getElementById('fb');
+  if(t.kind==='set'){
+    document.querySelectorAll('.opt').forEach(b=>{const n=+b.dataset.n,right=t.ans.includes(n),chosen=picks[cur].includes(n);b.disabled=true;
+      if(right&&chosen){b.classList.add('r-ok');b.querySelector('.tx').insertAdjacentHTML('beforeend','<span class="mark">✓ верно</span>')}
+      else if(right){b.classList.add('r-miss');b.querySelector('.tx').insertAdjacentHTML('beforeend','<span class="mark">○ нужно было выбрать</span>')}
+      else if(chosen){b.classList.add('r-bad');b.querySelector('.tx').insertAdjacentHTML('beforeend','<span class="mark">✗ лишнее</span>')}});
+  }else{
+    document.querySelectorAll('.mrow').forEach((row,r)=>{const good=picks[cur][r]===+t.ans[r];row.classList.add(good?'r-ok':'r-bad');row.querySelectorAll('.seg button').forEach((b,j)=>{b.disabled=true;if(!good&&j+1===+t.ans[r])b.classList.add('right')})});
+  }
+  fb.className='fb on '+(ok?'ok':'bad');
+  const ansShow=t.kind==='match'?t.left.map((_,r)=>LET[r]).join(' ')+'  →  '+[...t.ans].join(' '):t.ans;
+  fb.innerHTML=`<div class="verdict">${ok?'✓ Верно! +1 балл':'✗ Пока неверно'}</div><div class="right">Правильный ответ: <code>${esc(ansShow)}</code></div><div class="ex">${rich(t.expl)}</div>`;
+  document.getElementById('chk').disabled=true;
+  if(!locked)fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function next(){if(cur<T.q.length-1){cur++;renderQ();window.scrollTo(0,document.getElementById('testPanel').offsetTop-80)}else finish()}
+function prev(){if(cur>0){cur--;renderQ();window.scrollTo(0,document.getElementById('testPanel').offsetTop-80)}}
+function finish(){
+  const n=T.q.length,pts=res.filter(x=>x===true).length,skipped=res.filter(x=>x===null).length,r=pts/n;
+  const msg=r>=.9?'Блестяще! Тема у вас в лапках 🐾':r>=.7?'Хороший результат! Разберите ошибки — и будет идеально.':r>=.5?'Неплохо, но стоит ещё раз пройтись по конспекту и запоминашке.':'Вернитесь к лекциям и запоминашке, а потом попробуйте ещё раз.';
+  const other=T.key==='base'?`<button class="btn p" onclick="startTest('pro')">Тест ПРО →</button>`:`<button class="btn p" onclick="startTest('base')">Тест БАЗА</button>`;
+  document.getElementById('testPanel').innerHTML=`<div class="result"><img src="logo-cat.png" alt=""><div class="test-name">${T.name}</div><div class="big-score">${pts}<small> / ${n}</small></div>
+  <h2>${msg}</h2>${skipped?`<p>Без ответа: ${skipped}</p>`:''}<p>Нажмите на номер задания, чтобы посмотреть его ещё раз.</p>
+  <div class="rgrid">${res.map((x,i)=>`<button class="${x===true?'ok':x===false?'bad':'skip'}" onclick="cur=${i};renderQ()">${i+1}</button>`).join('')}</div>
+  <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><button class="btn g" onclick="startTest('${T.key}')">Пройти заново</button>${other}<button class="btn o" onclick="go('part2')">Вторая часть →</button></div></div>`;
+  window.scrollTo(0,0);
+}
+
+/* ======== ВТОРАЯ ЧАСТЬ ======== */
+const srcHTML=`<div class="src">${P2_TEXT.text.map(p=>`<p>${esc(p)}</p>`).join('')}<p class="au">(${esc(P2_TEXT.author)})</p></div>`;
+let shown=false;
+document.getElementById('p2list').innerHTML=P2.map((t,k)=>{
+  let h=`<div class="panel"><div class="qnum"><b>${t.n}</b><span>Задание ${t.n} · ${esc(t.tag)}</span></div>`;
+  if(t.src){h+=!shown?`<p class="howto" style="margin:0 0 8px">Прочитайте текст и выполните задания 17 и 18.</p>`+srcHTML:`<details class="srcd"><summary>Показать текст ещё раз</summary>${srcHTML}</details>`;shown=true}
+  h+=`<p class="q">${esc(t.q)}</p>`;
+  if(t.sub)h+='<div class="subq">'+t.sub.map(s=>`<p>${esc(s)}</p>`).join('')+'</div>';
+  h+=`<textarea class="mine" id="mine${k}" placeholder="Мой ответ…" aria-label="Мой ответ на задание ${t.n}"></textarea>`;
+  h+=`<div class="reveal"><button class="btn p" onclick="toggleAns(this,${k})">Сверить с эталоном</button><small>Сравните по смыслу: формулировки могут отличаться.</small></div><div class="ans" id="ans${k}"><h4 class="t">Эталон</h4><div class="ex">${rich(t.a)}</div></div></div>`;
+  return h;
+}).join('');
+P2.forEach((t,k)=>{const ta=document.getElementById('mine'+k),key='oik-t4-p2-'+t.n;ta.value=store.get(key)||'';ta.addEventListener('input',()=>store.set(key,ta.value))});
+function toggleAns(b,k){const a=document.getElementById('ans'+k);a.classList.toggle('on');b.textContent=a.classList.contains('on')?'Скрыть эталон':'Сверить с эталоном'}
+
+if(location.hash==='#part2')go('part2');
+</script>
+</body>
+</html>
